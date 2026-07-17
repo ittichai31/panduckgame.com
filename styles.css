@@ -212,26 +212,16 @@ h3 {
 
 .sprite,
 .cat-orbit .sprite {
-  --frame-size: 256px;
-  --sheet-width: 1536px;
-  --row-offset: 0px;
   display: block;
-  width: var(--frame-size);
-  height: var(--frame-size);
-  background-size: var(--sheet-width) auto;
-  background-repeat: no-repeat;
-  background-position: 0 var(--row-offset);
+  width: 256px;
+  height: 256px;
   image-rendering: auto;
   transform-origin: center bottom;
 }
 
-.idle {
-  animation: sprite-idle 1s steps(6) infinite;
-}
-
 .result-sprite {
-  --frame-size: 320px;
-  --sheet-width: 1920px;
+  width: 320px;
+  height: 320px;
 }
 
 .delay-one {
@@ -263,26 +253,6 @@ h3 {
   right: 0;
   z-index: 1;
   transform: scale(.9);
-}
-
-.black-cat { background-image: url("/assets/sprites/black-cat.png"); }
-.calico { background-image: url("/assets/sprites/calico.png"); }
-.grey-tabby { background-image: url("/assets/sprites/grey-tabby.png"); }
-.maine-coon { background-image: url("/assets/sprites/maine-coon.png"); }
-.orange-cat { background-image: url("/assets/sprites/orange-cat.png"); }
-.ragdoll { background-image: url("/assets/sprites/ragdoll.png"); }
-.british-shorthair { background-image: url("/assets/sprites/british-shorthair.png"); }
-.siamese { background-image: url("/assets/sprites/siamese.png"); }
-.tuxedo { background-image: url("/assets/sprites/tuxedo.png"); }
-.white-cat { background-image: url("/assets/sprites/white-cat.png"); }
-
-@keyframes sprite-idle {
-  from {
-    background-position: 0 var(--row-offset);
-  }
-  to {
-    background-position: calc(var(--sheet-width) * -1) var(--row-offset);
-  }
 }
 
 .feature-band {
@@ -568,8 +538,8 @@ h3 {
   }
 
   .result-sprite {
-    --frame-size: 256px;
-    --sheet-width: 1536px;
+    width: 256px;
+    height: 256px;
   }
 }
 

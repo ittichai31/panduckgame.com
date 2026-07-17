@@ -33,9 +33,9 @@
         </div>
         <div class="hero-stage" aria-label="Animated cats from the desktop pet project">
           <div class="sprite-pedestal">
-            <span class="sprite idle orange-cat"></span>
-            <span class="sprite idle tuxedo delay-one"></span>
-            <span class="sprite idle ragdoll delay-two"></span>
+            <canvas class="sprite cat-canvas orange-cat" data-cat="orangeCat" width="256" height="256"></canvas>
+            <canvas class="sprite cat-canvas tuxedo delay-one" data-cat="tuxedo" width="256" height="256"></canvas>
+            <canvas class="sprite cat-canvas ragdoll delay-two" data-cat="ragdoll" width="256" height="256"></canvas>
           </div>
         </div>
       </section>
@@ -73,5 +73,6 @@
         <a class="button primary" href="/quiz/adoptcat/">Start the quiz</a>
       </section>
     </main>
+    <script src="/cat-animation.js"></script>
   </body>
 </html>
