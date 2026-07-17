@@ -212,22 +212,26 @@ h3 {
 
 .sprite,
 .cat-orbit .sprite {
+  --frame-size: 256px;
+  --sheet-width: 1536px;
+  --row-offset: 0px;
   display: block;
-  width: 256px;
-  height: 256px;
+  width: var(--frame-size);
+  height: var(--frame-size);
+  background-size: var(--sheet-width) auto;
   background-repeat: no-repeat;
+  background-position: 0 var(--row-offset);
   image-rendering: auto;
   transform-origin: center bottom;
 }
 
 .idle {
-  animation: sprite-walk 1s steps(6) infinite;
+  animation: sprite-idle 1s steps(6) infinite;
 }
 
 .result-sprite {
-  width: 320px;
-  height: 320px;
-  background-size: 1920px 3520px;
+  --frame-size: 320px;
+  --sheet-width: 1920px;
 }
 
 .delay-one {
@@ -272,9 +276,13 @@ h3 {
 .tuxedo { background-image: url("/assets/sprites/tuxedo.png"); }
 .white-cat { background-image: url("/assets/sprites/white-cat.png"); }
 
-@keyframes sprite-walk {
-  from { background-position: 0 0; }
-  to { background-position: -1536px 0; }
+@keyframes sprite-idle {
+  from {
+    background-position: 0 var(--row-offset);
+  }
+  to {
+    background-position: calc(var(--sheet-width) * -1) var(--row-offset);
+  }
 }
 
 .feature-band {
@@ -560,9 +568,8 @@ h3 {
   }
 
   .result-sprite {
-    width: 256px;
-    height: 256px;
-    background-size: 1536px 2816px;
+    --frame-size: 256px;
+    --sheet-width: 1536px;
   }
 }
 
