@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Which Adoptable Cat Are You? | Panduck Studio</title>
+    <meta name="description" content="Take the Panduck Studio cat quiz and discover your desktop pet cat match.">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body data-page="quiz">
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Panduck Studio home">
+        <span class="brand-mark">P</span>
+        <span>Panduck Studio</span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="/">Home</a>
+        <a href="/quiz/adoptcat/" aria-current="page">Cat Quiz</a>
+      </nav>
+    </header>
+
+    <main class="quiz-shell">
+      <section class="quiz-panel" id="quiz-app">
+        <div class="quiz-topbar">
+          <div>
+            <p class="eyebrow" data-i18n="quiz.eyebrow">Desktop pet quiz</p>
+            <h1 data-i18n="quiz.title">Which adoptable cat are you?</h1>
+          </div>
+          <label class="language-picker">
+            <span data-i18n="quiz.language">Language</span>
+            <select id="language-select" aria-label="Language">
+              <option value="en">English</option>
+              <option value="th">ไทย</option>
+              <option value="es">Español</option>
+              <option value="zh">中文</option>
+            </select>
+          </label>
+        </div>
+
+        <div id="intro-screen" class="screen active">
+          <div class="intro-layout">
+            <div>
+              <p class="lead" data-i18n="quiz.intro">Answer 10 tiny personality questions and meet the desktop cat that matches your vibe.</p>
+              <div class="hero-actions">
+                <button class="button primary" id="start-button" type="button" data-i18n="quiz.start">Start quiz</button>
+                <a class="button secondary" href="/" data-i18n="quiz.home">Panduck home</a>
+              </div>
+            </div>
+            <div class="cat-orbit" aria-hidden="true">
+              <span class="sprite idle black-cat"></span>
+              <span class="sprite idle calico delay-one"></span>
+              <span class="sprite idle siamese delay-two"></span>
+            </div>
+          </div>
+        </div>
+
+        <div id="question-screen" class="screen">
+          <div class="progress-wrap">
+            <span id="progress-label">1 / 10</span>
+            <div class="progress-track"><span id="progress-bar"></span></div>
+          </div>
+          <h2 id="question-title"></h2>
+          <div class="answer-grid" id="answer-grid"></div>
+        </div>
+
+        <div id="result-screen" class="screen">
+          <div class="result-layout">
+            <div class="result-art">
+              <span id="result-sprite" class="sprite result-sprite idle orange-cat"></span>
+            </div>
+            <div class="result-copy">
+              <p class="eyebrow" data-i18n="result.eyebrow">Your cat match</p>
+              <h2 id="result-title"></h2>
+              <p id="result-description" class="lead"></p>
+              <p id="result-adopt" class="adopt-line"></p>
+              <div class="hero-actions">
+                <a class="button primary" id="steam-link" href="#" data-i18n="result.adoptCta">Adopt this desktop cat</a>
+                <button class="button secondary" id="restart-button" type="button" data-i18n="result.restart">Try again</button>
+              </div>
+              <p id="share-text" class="share-text"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="/quiz/adoptcat/quiz.js"></script>
+  </body>
+</html>
