@@ -26,12 +26,13 @@ function getCatSprite(catId) {
 function drawCatFrame(canvas, image, frameIndex) {
   const context = canvas.getContext("2d");
   const frameSize = 256;
+  const rowIndex = Number(canvas.dataset.row || 6);
   context.clearRect(0, 0, canvas.width, canvas.height);
   context.imageSmoothingEnabled = true;
   context.drawImage(
     image,
     frameIndex * frameSize,
-    0,
+    rowIndex * frameSize,
     frameSize,
     frameSize,
     0,
@@ -43,8 +44,9 @@ function drawCatFrame(canvas, image, frameIndex) {
 
 function animateCatCanvas(canvas) {
   const frameCount = 6;
-  const frameDuration = 150;
-  let frameIndex = 0;
+  const frameDuration = 180;
+  let frameIndex = Number(canvas.dataset.offset || 0) % frameCount;
+  let lastFrameTime = 0;
 
   function drawCurrentFrame() {
     const image = getCatSprite(canvas.dataset.cat);
@@ -55,12 +57,18 @@ function animateCatCanvas(canvas) {
     drawCatFrame(canvas, image, frameIndex);
   }
 
+  function tick(time) {
+    if (time - lastFrameTime >= frameDuration) {
+      frameIndex = (frameIndex + 1) % frameCount;
+      lastFrameTime = time;
+      drawCurrentFrame();
+    }
+    window.requestAnimationFrame(tick);
+  }
+
   function start() {
     drawCurrentFrame();
-    window.setInterval(() => {
-      frameIndex = (frameIndex + 1) % frameCount;
-      drawCurrentFrame();
-    }, frameDuration);
+    window.requestAnimationFrame(tick);
   }
 
   const image = getCatSprite(canvas.dataset.cat);
@@ -79,8 +87,9 @@ function bootCatAnimations(root = document) {
   });
 }
 
-window.setCatCanvas = function setCatCanvas(canvas, catId) {
+window.setCatCanvas = function setCatCanvas(canvas, catId, rowIndex = 6) {
   canvas.dataset.cat = catId;
+  canvas.dataset.row = String(rowIndex);
   const image = getCatSprite(catId);
   if (image.complete) drawCatFrame(canvas, image, 0);
 };

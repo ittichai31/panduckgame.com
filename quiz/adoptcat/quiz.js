@@ -700,7 +700,7 @@ function renderResult(id) {
   resultAdopt.textContent = translations[lang].result.adopt;
   shareText.textContent = translations[lang].result.share.replace("{cat}", cat.name);
   resultSprite.className = `sprite cat-canvas result-sprite ${spriteClass[id]}`;
-  window.setCatCanvas?.(resultSprite, id);
+  window.setCatCanvas?.(resultSprite, id, 6);
 }
 
 languageSelect.value = lang;
