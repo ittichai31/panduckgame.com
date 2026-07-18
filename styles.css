@@ -126,6 +126,7 @@ select {
 .home-hero,
 .feature-band,
 .quiz-promo,
+.sister-projects,
 .social-band,
 .quiz-shell {
   width: min(1120px, calc(100% - 2rem));
@@ -239,6 +240,7 @@ h3 {
 .quiz-panel,
 .project-card,
 .quiz-promo,
+.sister-card,
 .social-band {
   border: 3px solid var(--ink);
   background: var(--panel);
@@ -524,6 +526,46 @@ h3 {
   line-height: 1.55;
 }
 
+.sister-projects {
+  margin-bottom: 4rem;
+}
+
+.sister-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.sister-card {
+  min-height: 17rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: .75rem;
+  padding: 1.25rem;
+}
+
+.sister-card p:not(.project-type) {
+  color: #4d3e32;
+  line-height: 1.55;
+}
+
+.sister-card .text-link {
+  align-self: flex-start;
+  margin-top: auto;
+}
+
+.tiger-card {
+  background:
+    radial-gradient(circle at 95% 12%, #ff9b5740 0 5.5rem, transparent 5.7rem),
+    linear-gradient(135deg, #fff4c7 0%, #ffc857 100%);
+}
+
+.mystic-card {
+  background:
+    radial-gradient(circle at 94% 10%, #ffd75f66 0 5.5rem, transparent 5.7rem),
+    linear-gradient(135deg, #e7dcff 0%, #39c8bd 100%);
+}
+
 .quiz-shell {
   display: grid;
   min-height: calc(100vh - 5rem);
@@ -764,6 +806,7 @@ h3 {
   .intro-layout,
   .result-layout,
   .project-grid,
+  .sister-grid,
   .social-band {
     grid-template-columns: 1fr;
   }
