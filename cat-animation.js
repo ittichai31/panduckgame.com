@@ -20,7 +20,18 @@ const catAnimationFiles = {
   petting: { sheet: "sheet-1", row: "row-08", label: "petting" }
 };
 
+const catAnimationOverrides = {
+  blackCat: {
+    sitting: "/animations/black-cat/sheet-1/black-cat_sheet-1_row-06_sitting_v2.webp"
+  }
+};
+
 function catAnimationPath(catId, action = "sitting") {
+  const override = catAnimationOverrides[catId]?.[action];
+  if (override) {
+    return override;
+  }
+
   const catSlug = catAnimationIds[catId] || catAnimationIds.orangeCat;
   const animation = catAnimationFiles[action] || catAnimationFiles.sitting;
   const fileName = `${catSlug}_${animation.sheet}_${animation.row}_${animation.label}.gif`;
