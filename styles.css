@@ -395,6 +395,17 @@ h3 {
   padding: 1.2rem;
 }
 
+.project-art {
+  width: 100%;
+  aspect-ratio: 616 / 353;
+  margin-bottom: 1rem;
+  border: 2px solid var(--ink);
+  border-radius: .55rem;
+  background: #fff8ea;
+  box-shadow: 4px 4px 0 #000;
+  object-fit: cover;
+}
+
 .project-card p {
   color: #504c45;
   line-height: 1.55;
@@ -426,15 +437,21 @@ h3 {
 }
 
 .accent-yellow {
-  background: #ffe291;
+  background:
+    radial-gradient(circle at 96% 6%, #ffec8e 0 5.5rem, transparent 5.7rem),
+    linear-gradient(180deg, #ffe291 0%, #ffc857 100%);
 }
 
 .accent-mint {
-  background: #bdf2e8;
+  background:
+    radial-gradient(circle at 94% 8%, #fff8ea 0 5rem, transparent 5.2rem),
+    linear-gradient(180deg, #bdf2e8 0%, #39c8bd 100%);
 }
 
 .accent-coral {
-  background: #ffc08f;
+  background:
+    radial-gradient(circle at 94% 8%, #ffd75f77 0 5rem, transparent 5.2rem),
+    linear-gradient(180deg, #ffc08f 0%, #ff7b42 100%);
 }
 
 .card-actions {
