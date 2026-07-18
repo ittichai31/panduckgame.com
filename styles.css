@@ -510,21 +510,21 @@ h3 {
 
 .cat-orbit .black-cat {
   left: 50%;
-  bottom: .85rem;
+  bottom: .05rem;
   transform: translateX(-50%) scale(.66);
   z-index: 3;
 }
 
 .cat-orbit .calico {
   left: 1.2rem;
-  bottom: .25rem;
+  bottom: .65rem;
   transform: scale(.62);
   z-index: 2;
 }
 
 .cat-orbit .siamese {
   right: 1.15rem;
-  bottom: .1rem;
+  bottom: .55rem;
   transform: scale(.64);
   z-index: 1;
 }
