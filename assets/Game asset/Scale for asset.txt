@@ -1,0 +1,17 @@
+| Asset / Setting | Default Scale In Code | Final Visible Scale |
+|---|---:|---:|
+| Overall sprite size: Small | `0.9` | Multiplies cats, furniture, toys |
+| Overall sprite size: Medium | `1.0` | Multiplies cats, furniture, toys |
+| Overall sprite size: Large | `1.1` | Multiplies cats, furniture, toys |
+| Cat body scale | `1.0` | Base per-cat body size |
+| Cat sprite | `0.29` | `0.29 x 0.95 x body x overall x lane depth` |
+| Cat front lane | `1.0` depth | Small `0.248`, Medium `0.276`, Large `0.303` |
+| Cat back lane | `0.94` depth | Small `0.233`, Medium `0.259`, Large `0.285` |
+| Furniture: Box, Shelf, Cat Tree, Wall Shelf, Box Bed | `0.25` | Small `0.225`, Medium `0.25`, Large `0.275` |
+| Toy: Balls | `0.20` | Small `0.18`, Medium `0.20`, Large `0.22` |
+| Toy: Feather Wand | `0.20` | Small `0.18`, Medium `0.20`, Large `0.22` |
+| Toy: Treat Puzzle / Treat Puzzle 2 | `0.18` | Small `0.162`, Medium `0.18`, Large `0.198` |
+| Toy: Mouse Robot / Car Robot | Code says `0.0525`, clamped to `0.10` | Small `0.09`, Medium `0.10`, Large `0.11` |
+| Snack held cursor | Fixed `18 x 18 px` | Not affected by cat/toy/furniture scale |
+| Hand pointer | Fixed small PNG size | Not affected by cat/toy/furniture scale |
+| UI panels | Default index `3` | `0.90`, the Large UI panel scale |

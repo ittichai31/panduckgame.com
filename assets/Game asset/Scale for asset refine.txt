@@ -1,0 +1,9 @@
+| Asset / Setting | Default Scale In Code | Final Visible Scale |
+|---|---:|---:|
+
+| Cat sprite | `0.29` 
+| Furniture: Box, Shelf, Cat Tree, Wall Shelf, Box Bed | `0.25` 
+| Toy: Balls | `0.20` | Small `0.18`, Medium `0.20`, Large `0.22` |
+| Toy: Feather Wand | `0.20` 
+| Toy: Treat Puzzle / Treat Puzzle 2 | `0.18` 
+| Toy: Mouse Robot / Car Robot | Code says `0.10`

@@ -47,9 +47,11 @@
               </div>
             </div>
             <div class="cat-orbit" aria-hidden="true">
-              <canvas class="sprite cat-canvas black-cat" data-cat="blackCat" data-row="6" data-offset="0" width="256" height="256"></canvas>
-              <canvas class="sprite cat-canvas calico delay-one" data-cat="calico" data-row="6" data-offset="2" width="256" height="256"></canvas>
-              <canvas class="sprite cat-canvas siamese delay-two" data-cat="siamese" data-row="6" data-offset="4" width="256" height="256"></canvas>
+              <img class="stage-prop orbit-ball-prop" src="/assets/Game%20asset/toy%20ball/pom_ball_idle.png" alt="">
+              <img class="stage-prop orbit-robot-prop" src="/assets/Game%20asset/toy%20robot/mouse_robot_idle.png" alt="">
+              <img class="sprite cat-animation black-cat" data-cat="blackCat" data-action="sitting" alt="Sitting black cat">
+              <img class="sprite cat-animation calico delay-one" data-cat="calico" data-action="grooming" alt="Grooming calico cat">
+              <img class="sprite cat-animation siamese delay-two" data-cat="siamese" data-action="walking" alt="Walking Siamese cat">
             </div>
           </div>
         </div>
@@ -66,7 +68,9 @@
         <div id="result-screen" class="screen">
           <div class="result-layout">
             <div class="result-art">
-              <canvas id="result-sprite" class="sprite cat-canvas result-sprite orange-cat" data-cat="orangeCat" data-row="6" width="256" height="256"></canvas>
+              <img class="stage-prop result-puzzle-prop" src="/assets/Game%20asset/toy%20puzzle/treat_puzzle2_idle.png" alt="">
+              <img class="stage-prop result-ball-prop" src="/assets/Game%20asset/toy%20ball/wooden_ball_idle.png" alt="">
+              <img id="result-sprite" class="sprite cat-animation result-sprite orange-cat" data-cat="orangeCat" data-action="sitting" alt="">
             </div>
             <div class="result-copy">
               <p class="eyebrow" data-i18n="result.eyebrow">Your cat match</p>

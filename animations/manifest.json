@@ -1,0 +1,2382 @@
+{
+  "source": "D:\\TUM Personal\\WEBSITE\\Panduckgame.com\\Cat quiz\\cut_sprites",
+  "output": "D:\\TUM Personal\\WEBSITE\\Panduckgame.com\\Cat quiz\\animations",
+  "frame_duration_ms": 160,
+  "loop": "forever",
+  "animations": [
+    {
+      "cat": "black-cat",
+      "sheet": "sheet-1",
+      "row": "row-00",
+      "frame_count": 4,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png"
+      ],
+      "gif": "black-cat\\sheet-1\\black-cat_sheet-1_row-00_idle-original.gif",
+      "webp": "black-cat\\sheet-1\\black-cat_sheet-1_row-00_idle-original.webp",
+      "label": "idle-original"
+    },
+    {
+      "cat": "black-cat",
+      "sheet": "sheet-1",
+      "row": "row-01",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "black-cat\\sheet-1\\black-cat_sheet-1_row-01_walking.gif",
+      "webp": "black-cat\\sheet-1\\black-cat_sheet-1_row-01_walking.webp",
+      "label": "walking"
+    },
+    {
+      "cat": "black-cat",
+      "sheet": "sheet-1",
+      "row": "row-02",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "black-cat\\sheet-1\\black-cat_sheet-1_row-02_running.gif",
+      "webp": "black-cat\\sheet-1\\black-cat_sheet-1_row-02_running.webp",
+      "label": "running"
+    },
+    {
+      "cat": "black-cat",
+      "sheet": "sheet-1",
+      "row": "row-03",
+      "frame_count": 3,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png"
+      ],
+      "gif": "black-cat\\sheet-1\\black-cat_sheet-1_row-03_jumping.gif",
+      "webp": "black-cat\\sheet-1\\black-cat_sheet-1_row-03_jumping.webp",
+      "label": "jumping"
+    },
+    {
+      "cat": "black-cat",
+      "sheet": "sheet-1",
+      "row": "row-04",
+      "frame_count": 2,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png"
+      ],
+      "gif": "black-cat\\sheet-1\\black-cat_sheet-1_row-04_falling.gif",
+      "webp": "black-cat\\sheet-1\\black-cat_sheet-1_row-04_falling.webp",
+      "label": "falling"
+    },
+    {
+      "cat": "black-cat",
+      "sheet": "sheet-1",
+      "row": "row-05",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "black-cat\\sheet-1\\black-cat_sheet-1_row-05_gliding.gif",
+      "webp": "black-cat\\sheet-1\\black-cat_sheet-1_row-05_gliding.webp",
+      "label": "gliding"
+    },
+    {
+      "cat": "black-cat",
+      "sheet": "sheet-1",
+      "row": "row-06",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "black-cat\\sheet-1\\black-cat_sheet-1_row-06_sitting.gif",
+      "webp": "black-cat\\sheet-1\\black-cat_sheet-1_row-06_sitting.webp",
+      "label": "sitting"
+    },
+    {
+      "cat": "black-cat",
+      "sheet": "sheet-1",
+      "row": "row-07",
+      "frame_count": 2,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png"
+      ],
+      "gif": "black-cat\\sheet-1\\black-cat_sheet-1_row-07_holding.gif",
+      "webp": "black-cat\\sheet-1\\black-cat_sheet-1_row-07_holding.webp",
+      "label": "holding"
+    },
+    {
+      "cat": "black-cat",
+      "sheet": "sheet-1",
+      "row": "row-08",
+      "frame_count": 2,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png"
+      ],
+      "gif": "black-cat\\sheet-1\\black-cat_sheet-1_row-08_petting.gif",
+      "webp": "black-cat\\sheet-1\\black-cat_sheet-1_row-08_petting.webp",
+      "label": "petting"
+    },
+    {
+      "cat": "black-cat",
+      "sheet": "sheet-1",
+      "row": "row-09",
+      "frame_count": 3,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png"
+      ],
+      "gif": "black-cat\\sheet-1\\black-cat_sheet-1_row-09_angry.gif",
+      "webp": "black-cat\\sheet-1\\black-cat_sheet-1_row-09_angry.webp",
+      "label": "angry"
+    },
+    {
+      "cat": "black-cat",
+      "sheet": "sheet-1",
+      "row": "row-10",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "black-cat\\sheet-1\\black-cat_sheet-1_row-10_climbing.gif",
+      "webp": "black-cat\\sheet-1\\black-cat_sheet-1_row-10_climbing.webp",
+      "label": "climbing"
+    },
+    {
+      "cat": "black-cat",
+      "sheet": "sheet-2",
+      "row": "row-00",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "black-cat\\sheet-2\\black-cat_sheet-2_row-00_idle.gif",
+      "webp": "black-cat\\sheet-2\\black-cat_sheet-2_row-00_idle.webp",
+      "label": "idle"
+    },
+    {
+      "cat": "black-cat",
+      "sheet": "sheet-2",
+      "row": "row-01",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "black-cat\\sheet-2\\black-cat_sheet-2_row-01_sleep.gif",
+      "webp": "black-cat\\sheet-2\\black-cat_sheet-2_row-01_sleep.webp",
+      "label": "sleep"
+    },
+    {
+      "cat": "black-cat",
+      "sheet": "sheet-2",
+      "row": "row-02",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "black-cat\\sheet-2\\black-cat_sheet-2_row-02_grooming.gif",
+      "webp": "black-cat\\sheet-2\\black-cat_sheet-2_row-02_grooming.webp",
+      "label": "grooming"
+    },
+    {
+      "cat": "black-cat",
+      "sheet": "sheet-2",
+      "row": "row-03",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "black-cat\\sheet-2\\black-cat_sheet-2_row-03_lying-down.gif",
+      "webp": "black-cat\\sheet-2\\black-cat_sheet-2_row-03_lying-down.webp",
+      "label": "lying-down"
+    },
+    {
+      "cat": "british-shorthair",
+      "sheet": "sheet-1",
+      "row": "row-00",
+      "frame_count": 4,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png"
+      ],
+      "gif": "british-shorthair\\sheet-1\\british-shorthair_sheet-1_row-00_idle-original.gif",
+      "webp": "british-shorthair\\sheet-1\\british-shorthair_sheet-1_row-00_idle-original.webp",
+      "label": "idle-original"
+    },
+    {
+      "cat": "british-shorthair",
+      "sheet": "sheet-1",
+      "row": "row-01",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "british-shorthair\\sheet-1\\british-shorthair_sheet-1_row-01_walking.gif",
+      "webp": "british-shorthair\\sheet-1\\british-shorthair_sheet-1_row-01_walking.webp",
+      "label": "walking"
+    },
+    {
+      "cat": "british-shorthair",
+      "sheet": "sheet-1",
+      "row": "row-02",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "british-shorthair\\sheet-1\\british-shorthair_sheet-1_row-02_running.gif",
+      "webp": "british-shorthair\\sheet-1\\british-shorthair_sheet-1_row-02_running.webp",
+      "label": "running"
+    },
+    {
+      "cat": "british-shorthair",
+      "sheet": "sheet-1",
+      "row": "row-03",
+      "frame_count": 3,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png"
+      ],
+      "gif": "british-shorthair\\sheet-1\\british-shorthair_sheet-1_row-03_jumping.gif",
+      "webp": "british-shorthair\\sheet-1\\british-shorthair_sheet-1_row-03_jumping.webp",
+      "label": "jumping"
+    },
+    {
+      "cat": "british-shorthair",
+      "sheet": "sheet-1",
+      "row": "row-04",
+      "frame_count": 2,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png"
+      ],
+      "gif": "british-shorthair\\sheet-1\\british-shorthair_sheet-1_row-04_falling.gif",
+      "webp": "british-shorthair\\sheet-1\\british-shorthair_sheet-1_row-04_falling.webp",
+      "label": "falling"
+    },
+    {
+      "cat": "british-shorthair",
+      "sheet": "sheet-1",
+      "row": "row-05",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "british-shorthair\\sheet-1\\british-shorthair_sheet-1_row-05_gliding.gif",
+      "webp": "british-shorthair\\sheet-1\\british-shorthair_sheet-1_row-05_gliding.webp",
+      "label": "gliding"
+    },
+    {
+      "cat": "british-shorthair",
+      "sheet": "sheet-1",
+      "row": "row-06",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "british-shorthair\\sheet-1\\british-shorthair_sheet-1_row-06_sitting.gif",
+      "webp": "british-shorthair\\sheet-1\\british-shorthair_sheet-1_row-06_sitting.webp",
+      "label": "sitting"
+    },
+    {
+      "cat": "british-shorthair",
+      "sheet": "sheet-1",
+      "row": "row-07",
+      "frame_count": 2,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png"
+      ],
+      "gif": "british-shorthair\\sheet-1\\british-shorthair_sheet-1_row-07_holding.gif",
+      "webp": "british-shorthair\\sheet-1\\british-shorthair_sheet-1_row-07_holding.webp",
+      "label": "holding"
+    },
+    {
+      "cat": "british-shorthair",
+      "sheet": "sheet-1",
+      "row": "row-08",
+      "frame_count": 2,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png"
+      ],
+      "gif": "british-shorthair\\sheet-1\\british-shorthair_sheet-1_row-08_petting.gif",
+      "webp": "british-shorthair\\sheet-1\\british-shorthair_sheet-1_row-08_petting.webp",
+      "label": "petting"
+    },
+    {
+      "cat": "british-shorthair",
+      "sheet": "sheet-1",
+      "row": "row-09",
+      "frame_count": 3,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png"
+      ],
+      "gif": "british-shorthair\\sheet-1\\british-shorthair_sheet-1_row-09_angry.gif",
+      "webp": "british-shorthair\\sheet-1\\british-shorthair_sheet-1_row-09_angry.webp",
+      "label": "angry"
+    },
+    {
+      "cat": "british-shorthair",
+      "sheet": "sheet-1",
+      "row": "row-10",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "british-shorthair\\sheet-1\\british-shorthair_sheet-1_row-10_climbing.gif",
+      "webp": "british-shorthair\\sheet-1\\british-shorthair_sheet-1_row-10_climbing.webp",
+      "label": "climbing"
+    },
+    {
+      "cat": "british-shorthair",
+      "sheet": "sheet-2",
+      "row": "row-00",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "british-shorthair\\sheet-2\\british-shorthair_sheet-2_row-00_idle.gif",
+      "webp": "british-shorthair\\sheet-2\\british-shorthair_sheet-2_row-00_idle.webp",
+      "label": "idle"
+    },
+    {
+      "cat": "british-shorthair",
+      "sheet": "sheet-2",
+      "row": "row-01",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "british-shorthair\\sheet-2\\british-shorthair_sheet-2_row-01_sleep.gif",
+      "webp": "british-shorthair\\sheet-2\\british-shorthair_sheet-2_row-01_sleep.webp",
+      "label": "sleep"
+    },
+    {
+      "cat": "british-shorthair",
+      "sheet": "sheet-2",
+      "row": "row-02",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "british-shorthair\\sheet-2\\british-shorthair_sheet-2_row-02_grooming.gif",
+      "webp": "british-shorthair\\sheet-2\\british-shorthair_sheet-2_row-02_grooming.webp",
+      "label": "grooming"
+    },
+    {
+      "cat": "british-shorthair",
+      "sheet": "sheet-2",
+      "row": "row-03",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "british-shorthair\\sheet-2\\british-shorthair_sheet-2_row-03_lying-down.gif",
+      "webp": "british-shorthair\\sheet-2\\british-shorthair_sheet-2_row-03_lying-down.webp",
+      "label": "lying-down"
+    },
+    {
+      "cat": "calico",
+      "sheet": "sheet-1",
+      "row": "row-00",
+      "frame_count": 4,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png"
+      ],
+      "gif": "calico\\sheet-1\\calico_sheet-1_row-00_idle-original.gif",
+      "webp": "calico\\sheet-1\\calico_sheet-1_row-00_idle-original.webp",
+      "label": "idle-original"
+    },
+    {
+      "cat": "calico",
+      "sheet": "sheet-1",
+      "row": "row-01",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "calico\\sheet-1\\calico_sheet-1_row-01_walking.gif",
+      "webp": "calico\\sheet-1\\calico_sheet-1_row-01_walking.webp",
+      "label": "walking"
+    },
+    {
+      "cat": "calico",
+      "sheet": "sheet-1",
+      "row": "row-02",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "calico\\sheet-1\\calico_sheet-1_row-02_running.gif",
+      "webp": "calico\\sheet-1\\calico_sheet-1_row-02_running.webp",
+      "label": "running"
+    },
+    {
+      "cat": "calico",
+      "sheet": "sheet-1",
+      "row": "row-03",
+      "frame_count": 3,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png"
+      ],
+      "gif": "calico\\sheet-1\\calico_sheet-1_row-03_jumping.gif",
+      "webp": "calico\\sheet-1\\calico_sheet-1_row-03_jumping.webp",
+      "label": "jumping"
+    },
+    {
+      "cat": "calico",
+      "sheet": "sheet-1",
+      "row": "row-04",
+      "frame_count": 2,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png"
+      ],
+      "gif": "calico\\sheet-1\\calico_sheet-1_row-04_falling.gif",
+      "webp": "calico\\sheet-1\\calico_sheet-1_row-04_falling.webp",
+      "label": "falling"
+    },
+    {
+      "cat": "calico",
+      "sheet": "sheet-1",
+      "row": "row-05",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "calico\\sheet-1\\calico_sheet-1_row-05_gliding.gif",
+      "webp": "calico\\sheet-1\\calico_sheet-1_row-05_gliding.webp",
+      "label": "gliding"
+    },
+    {
+      "cat": "calico",
+      "sheet": "sheet-1",
+      "row": "row-06",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "calico\\sheet-1\\calico_sheet-1_row-06_sitting.gif",
+      "webp": "calico\\sheet-1\\calico_sheet-1_row-06_sitting.webp",
+      "label": "sitting"
+    },
+    {
+      "cat": "calico",
+      "sheet": "sheet-1",
+      "row": "row-07",
+      "frame_count": 2,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png"
+      ],
+      "gif": "calico\\sheet-1\\calico_sheet-1_row-07_holding.gif",
+      "webp": "calico\\sheet-1\\calico_sheet-1_row-07_holding.webp",
+      "label": "holding"
+    },
+    {
+      "cat": "calico",
+      "sheet": "sheet-1",
+      "row": "row-08",
+      "frame_count": 2,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png"
+      ],
+      "gif": "calico\\sheet-1\\calico_sheet-1_row-08_petting.gif",
+      "webp": "calico\\sheet-1\\calico_sheet-1_row-08_petting.webp",
+      "label": "petting"
+    },
+    {
+      "cat": "calico",
+      "sheet": "sheet-1",
+      "row": "row-09",
+      "frame_count": 3,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png"
+      ],
+      "gif": "calico\\sheet-1\\calico_sheet-1_row-09_angry.gif",
+      "webp": "calico\\sheet-1\\calico_sheet-1_row-09_angry.webp",
+      "label": "angry"
+    },
+    {
+      "cat": "calico",
+      "sheet": "sheet-1",
+      "row": "row-10",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "calico\\sheet-1\\calico_sheet-1_row-10_climbing.gif",
+      "webp": "calico\\sheet-1\\calico_sheet-1_row-10_climbing.webp",
+      "label": "climbing"
+    },
+    {
+      "cat": "calico",
+      "sheet": "sheet-2",
+      "row": "row-00",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "calico\\sheet-2\\calico_sheet-2_row-00_idle.gif",
+      "webp": "calico\\sheet-2\\calico_sheet-2_row-00_idle.webp",
+      "label": "idle"
+    },
+    {
+      "cat": "calico",
+      "sheet": "sheet-2",
+      "row": "row-01",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "calico\\sheet-2\\calico_sheet-2_row-01_sleep.gif",
+      "webp": "calico\\sheet-2\\calico_sheet-2_row-01_sleep.webp",
+      "label": "sleep"
+    },
+    {
+      "cat": "calico",
+      "sheet": "sheet-2",
+      "row": "row-02",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "calico\\sheet-2\\calico_sheet-2_row-02_grooming.gif",
+      "webp": "calico\\sheet-2\\calico_sheet-2_row-02_grooming.webp",
+      "label": "grooming"
+    },
+    {
+      "cat": "calico",
+      "sheet": "sheet-2",
+      "row": "row-03",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "calico\\sheet-2\\calico_sheet-2_row-03_lying-down.gif",
+      "webp": "calico\\sheet-2\\calico_sheet-2_row-03_lying-down.webp",
+      "label": "lying-down"
+    },
+    {
+      "cat": "grey-tabby",
+      "sheet": "sheet-1",
+      "row": "row-00",
+      "frame_count": 4,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png"
+      ],
+      "gif": "grey-tabby\\sheet-1\\grey-tabby_sheet-1_row-00_idle-original.gif",
+      "webp": "grey-tabby\\sheet-1\\grey-tabby_sheet-1_row-00_idle-original.webp",
+      "label": "idle-original"
+    },
+    {
+      "cat": "grey-tabby",
+      "sheet": "sheet-1",
+      "row": "row-01",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "grey-tabby\\sheet-1\\grey-tabby_sheet-1_row-01_walking.gif",
+      "webp": "grey-tabby\\sheet-1\\grey-tabby_sheet-1_row-01_walking.webp",
+      "label": "walking"
+    },
+    {
+      "cat": "grey-tabby",
+      "sheet": "sheet-1",
+      "row": "row-02",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "grey-tabby\\sheet-1\\grey-tabby_sheet-1_row-02_running.gif",
+      "webp": "grey-tabby\\sheet-1\\grey-tabby_sheet-1_row-02_running.webp",
+      "label": "running"
+    },
+    {
+      "cat": "grey-tabby",
+      "sheet": "sheet-1",
+      "row": "row-03",
+      "frame_count": 3,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png"
+      ],
+      "gif": "grey-tabby\\sheet-1\\grey-tabby_sheet-1_row-03_jumping.gif",
+      "webp": "grey-tabby\\sheet-1\\grey-tabby_sheet-1_row-03_jumping.webp",
+      "label": "jumping"
+    },
+    {
+      "cat": "grey-tabby",
+      "sheet": "sheet-1",
+      "row": "row-04",
+      "frame_count": 2,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png"
+      ],
+      "gif": "grey-tabby\\sheet-1\\grey-tabby_sheet-1_row-04_falling.gif",
+      "webp": "grey-tabby\\sheet-1\\grey-tabby_sheet-1_row-04_falling.webp",
+      "label": "falling"
+    },
+    {
+      "cat": "grey-tabby",
+      "sheet": "sheet-1",
+      "row": "row-05",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "grey-tabby\\sheet-1\\grey-tabby_sheet-1_row-05_gliding.gif",
+      "webp": "grey-tabby\\sheet-1\\grey-tabby_sheet-1_row-05_gliding.webp",
+      "label": "gliding"
+    },
+    {
+      "cat": "grey-tabby",
+      "sheet": "sheet-1",
+      "row": "row-06",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "grey-tabby\\sheet-1\\grey-tabby_sheet-1_row-06_sitting.gif",
+      "webp": "grey-tabby\\sheet-1\\grey-tabby_sheet-1_row-06_sitting.webp",
+      "label": "sitting"
+    },
+    {
+      "cat": "grey-tabby",
+      "sheet": "sheet-1",
+      "row": "row-07",
+      "frame_count": 2,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png"
+      ],
+      "gif": "grey-tabby\\sheet-1\\grey-tabby_sheet-1_row-07_holding.gif",
+      "webp": "grey-tabby\\sheet-1\\grey-tabby_sheet-1_row-07_holding.webp",
+      "label": "holding"
+    },
+    {
+      "cat": "grey-tabby",
+      "sheet": "sheet-1",
+      "row": "row-08",
+      "frame_count": 2,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png"
+      ],
+      "gif": "grey-tabby\\sheet-1\\grey-tabby_sheet-1_row-08_petting.gif",
+      "webp": "grey-tabby\\sheet-1\\grey-tabby_sheet-1_row-08_petting.webp",
+      "label": "petting"
+    },
+    {
+      "cat": "grey-tabby",
+      "sheet": "sheet-1",
+      "row": "row-09",
+      "frame_count": 3,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png"
+      ],
+      "gif": "grey-tabby\\sheet-1\\grey-tabby_sheet-1_row-09_angry.gif",
+      "webp": "grey-tabby\\sheet-1\\grey-tabby_sheet-1_row-09_angry.webp",
+      "label": "angry"
+    },
+    {
+      "cat": "grey-tabby",
+      "sheet": "sheet-1",
+      "row": "row-10",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "grey-tabby\\sheet-1\\grey-tabby_sheet-1_row-10_climbing.gif",
+      "webp": "grey-tabby\\sheet-1\\grey-tabby_sheet-1_row-10_climbing.webp",
+      "label": "climbing"
+    },
+    {
+      "cat": "grey-tabby",
+      "sheet": "sheet-2",
+      "row": "row-00",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "grey-tabby\\sheet-2\\grey-tabby_sheet-2_row-00_idle.gif",
+      "webp": "grey-tabby\\sheet-2\\grey-tabby_sheet-2_row-00_idle.webp",
+      "label": "idle"
+    },
+    {
+      "cat": "grey-tabby",
+      "sheet": "sheet-2",
+      "row": "row-01",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "grey-tabby\\sheet-2\\grey-tabby_sheet-2_row-01_sleep.gif",
+      "webp": "grey-tabby\\sheet-2\\grey-tabby_sheet-2_row-01_sleep.webp",
+      "label": "sleep"
+    },
+    {
+      "cat": "grey-tabby",
+      "sheet": "sheet-2",
+      "row": "row-02",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "grey-tabby\\sheet-2\\grey-tabby_sheet-2_row-02_grooming.gif",
+      "webp": "grey-tabby\\sheet-2\\grey-tabby_sheet-2_row-02_grooming.webp",
+      "label": "grooming"
+    },
+    {
+      "cat": "grey-tabby",
+      "sheet": "sheet-2",
+      "row": "row-03",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "grey-tabby\\sheet-2\\grey-tabby_sheet-2_row-03_lying-down.gif",
+      "webp": "grey-tabby\\sheet-2\\grey-tabby_sheet-2_row-03_lying-down.webp",
+      "label": "lying-down"
+    },
+    {
+      "cat": "maine-coon",
+      "sheet": "sheet-1",
+      "row": "row-00",
+      "frame_count": 4,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png"
+      ],
+      "gif": "maine-coon\\sheet-1\\maine-coon_sheet-1_row-00_idle-original.gif",
+      "webp": "maine-coon\\sheet-1\\maine-coon_sheet-1_row-00_idle-original.webp",
+      "label": "idle-original"
+    },
+    {
+      "cat": "maine-coon",
+      "sheet": "sheet-1",
+      "row": "row-01",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "maine-coon\\sheet-1\\maine-coon_sheet-1_row-01_walking.gif",
+      "webp": "maine-coon\\sheet-1\\maine-coon_sheet-1_row-01_walking.webp",
+      "label": "walking"
+    },
+    {
+      "cat": "maine-coon",
+      "sheet": "sheet-1",
+      "row": "row-02",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "maine-coon\\sheet-1\\maine-coon_sheet-1_row-02_running.gif",
+      "webp": "maine-coon\\sheet-1\\maine-coon_sheet-1_row-02_running.webp",
+      "label": "running"
+    },
+    {
+      "cat": "maine-coon",
+      "sheet": "sheet-1",
+      "row": "row-03",
+      "frame_count": 3,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png"
+      ],
+      "gif": "maine-coon\\sheet-1\\maine-coon_sheet-1_row-03_jumping.gif",
+      "webp": "maine-coon\\sheet-1\\maine-coon_sheet-1_row-03_jumping.webp",
+      "label": "jumping"
+    },
+    {
+      "cat": "maine-coon",
+      "sheet": "sheet-1",
+      "row": "row-04",
+      "frame_count": 2,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png"
+      ],
+      "gif": "maine-coon\\sheet-1\\maine-coon_sheet-1_row-04_falling.gif",
+      "webp": "maine-coon\\sheet-1\\maine-coon_sheet-1_row-04_falling.webp",
+      "label": "falling"
+    },
+    {
+      "cat": "maine-coon",
+      "sheet": "sheet-1",
+      "row": "row-05",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "maine-coon\\sheet-1\\maine-coon_sheet-1_row-05_gliding.gif",
+      "webp": "maine-coon\\sheet-1\\maine-coon_sheet-1_row-05_gliding.webp",
+      "label": "gliding"
+    },
+    {
+      "cat": "maine-coon",
+      "sheet": "sheet-1",
+      "row": "row-06",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "maine-coon\\sheet-1\\maine-coon_sheet-1_row-06_sitting.gif",
+      "webp": "maine-coon\\sheet-1\\maine-coon_sheet-1_row-06_sitting.webp",
+      "label": "sitting"
+    },
+    {
+      "cat": "maine-coon",
+      "sheet": "sheet-1",
+      "row": "row-07",
+      "frame_count": 2,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png"
+      ],
+      "gif": "maine-coon\\sheet-1\\maine-coon_sheet-1_row-07_holding.gif",
+      "webp": "maine-coon\\sheet-1\\maine-coon_sheet-1_row-07_holding.webp",
+      "label": "holding"
+    },
+    {
+      "cat": "maine-coon",
+      "sheet": "sheet-1",
+      "row": "row-08",
+      "frame_count": 2,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png"
+      ],
+      "gif": "maine-coon\\sheet-1\\maine-coon_sheet-1_row-08_petting.gif",
+      "webp": "maine-coon\\sheet-1\\maine-coon_sheet-1_row-08_petting.webp",
+      "label": "petting"
+    },
+    {
+      "cat": "maine-coon",
+      "sheet": "sheet-1",
+      "row": "row-09",
+      "frame_count": 3,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png"
+      ],
+      "gif": "maine-coon\\sheet-1\\maine-coon_sheet-1_row-09_angry.gif",
+      "webp": "maine-coon\\sheet-1\\maine-coon_sheet-1_row-09_angry.webp",
+      "label": "angry"
+    },
+    {
+      "cat": "maine-coon",
+      "sheet": "sheet-1",
+      "row": "row-10",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "maine-coon\\sheet-1\\maine-coon_sheet-1_row-10_climbing.gif",
+      "webp": "maine-coon\\sheet-1\\maine-coon_sheet-1_row-10_climbing.webp",
+      "label": "climbing"
+    },
+    {
+      "cat": "maine-coon",
+      "sheet": "sheet-2",
+      "row": "row-00",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "maine-coon\\sheet-2\\maine-coon_sheet-2_row-00_idle.gif",
+      "webp": "maine-coon\\sheet-2\\maine-coon_sheet-2_row-00_idle.webp",
+      "label": "idle"
+    },
+    {
+      "cat": "maine-coon",
+      "sheet": "sheet-2",
+      "row": "row-01",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "maine-coon\\sheet-2\\maine-coon_sheet-2_row-01_sleep.gif",
+      "webp": "maine-coon\\sheet-2\\maine-coon_sheet-2_row-01_sleep.webp",
+      "label": "sleep"
+    },
+    {
+      "cat": "maine-coon",
+      "sheet": "sheet-2",
+      "row": "row-02",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "maine-coon\\sheet-2\\maine-coon_sheet-2_row-02_grooming.gif",
+      "webp": "maine-coon\\sheet-2\\maine-coon_sheet-2_row-02_grooming.webp",
+      "label": "grooming"
+    },
+    {
+      "cat": "maine-coon",
+      "sheet": "sheet-2",
+      "row": "row-03",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "maine-coon\\sheet-2\\maine-coon_sheet-2_row-03_lying-down.gif",
+      "webp": "maine-coon\\sheet-2\\maine-coon_sheet-2_row-03_lying-down.webp",
+      "label": "lying-down"
+    },
+    {
+      "cat": "orange-cat",
+      "sheet": "sheet-1",
+      "row": "row-00",
+      "frame_count": 4,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png"
+      ],
+      "gif": "orange-cat\\sheet-1\\orange-cat_sheet-1_row-00_idle-original.gif",
+      "webp": "orange-cat\\sheet-1\\orange-cat_sheet-1_row-00_idle-original.webp",
+      "label": "idle-original"
+    },
+    {
+      "cat": "orange-cat",
+      "sheet": "sheet-1",
+      "row": "row-01",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "orange-cat\\sheet-1\\orange-cat_sheet-1_row-01_walking.gif",
+      "webp": "orange-cat\\sheet-1\\orange-cat_sheet-1_row-01_walking.webp",
+      "label": "walking"
+    },
+    {
+      "cat": "orange-cat",
+      "sheet": "sheet-1",
+      "row": "row-02",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "orange-cat\\sheet-1\\orange-cat_sheet-1_row-02_running.gif",
+      "webp": "orange-cat\\sheet-1\\orange-cat_sheet-1_row-02_running.webp",
+      "label": "running"
+    },
+    {
+      "cat": "orange-cat",
+      "sheet": "sheet-1",
+      "row": "row-03",
+      "frame_count": 3,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png"
+      ],
+      "gif": "orange-cat\\sheet-1\\orange-cat_sheet-1_row-03_jumping.gif",
+      "webp": "orange-cat\\sheet-1\\orange-cat_sheet-1_row-03_jumping.webp",
+      "label": "jumping"
+    },
+    {
+      "cat": "orange-cat",
+      "sheet": "sheet-1",
+      "row": "row-04",
+      "frame_count": 2,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png"
+      ],
+      "gif": "orange-cat\\sheet-1\\orange-cat_sheet-1_row-04_falling.gif",
+      "webp": "orange-cat\\sheet-1\\orange-cat_sheet-1_row-04_falling.webp",
+      "label": "falling"
+    },
+    {
+      "cat": "orange-cat",
+      "sheet": "sheet-1",
+      "row": "row-05",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "orange-cat\\sheet-1\\orange-cat_sheet-1_row-05_gliding.gif",
+      "webp": "orange-cat\\sheet-1\\orange-cat_sheet-1_row-05_gliding.webp",
+      "label": "gliding"
+    },
+    {
+      "cat": "orange-cat",
+      "sheet": "sheet-1",
+      "row": "row-06",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "orange-cat\\sheet-1\\orange-cat_sheet-1_row-06_sitting.gif",
+      "webp": "orange-cat\\sheet-1\\orange-cat_sheet-1_row-06_sitting.webp",
+      "label": "sitting"
+    },
+    {
+      "cat": "orange-cat",
+      "sheet": "sheet-1",
+      "row": "row-07",
+      "frame_count": 2,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png"
+      ],
+      "gif": "orange-cat\\sheet-1\\orange-cat_sheet-1_row-07_holding.gif",
+      "webp": "orange-cat\\sheet-1\\orange-cat_sheet-1_row-07_holding.webp",
+      "label": "holding"
+    },
+    {
+      "cat": "orange-cat",
+      "sheet": "sheet-1",
+      "row": "row-08",
+      "frame_count": 2,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png"
+      ],
+      "gif": "orange-cat\\sheet-1\\orange-cat_sheet-1_row-08_petting.gif",
+      "webp": "orange-cat\\sheet-1\\orange-cat_sheet-1_row-08_petting.webp",
+      "label": "petting"
+    },
+    {
+      "cat": "orange-cat",
+      "sheet": "sheet-1",
+      "row": "row-09",
+      "frame_count": 3,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png"
+      ],
+      "gif": "orange-cat\\sheet-1\\orange-cat_sheet-1_row-09_angry.gif",
+      "webp": "orange-cat\\sheet-1\\orange-cat_sheet-1_row-09_angry.webp",
+      "label": "angry"
+    },
+    {
+      "cat": "orange-cat",
+      "sheet": "sheet-1",
+      "row": "row-10",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "orange-cat\\sheet-1\\orange-cat_sheet-1_row-10_climbing.gif",
+      "webp": "orange-cat\\sheet-1\\orange-cat_sheet-1_row-10_climbing.webp",
+      "label": "climbing"
+    },
+    {
+      "cat": "orange-cat",
+      "sheet": "sheet-2",
+      "row": "row-00",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "orange-cat\\sheet-2\\orange-cat_sheet-2_row-00_idle.gif",
+      "webp": "orange-cat\\sheet-2\\orange-cat_sheet-2_row-00_idle.webp",
+      "label": "idle"
+    },
+    {
+      "cat": "orange-cat",
+      "sheet": "sheet-2",
+      "row": "row-01",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "orange-cat\\sheet-2\\orange-cat_sheet-2_row-01_sleep.gif",
+      "webp": "orange-cat\\sheet-2\\orange-cat_sheet-2_row-01_sleep.webp",
+      "label": "sleep"
+    },
+    {
+      "cat": "orange-cat",
+      "sheet": "sheet-2",
+      "row": "row-02",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "orange-cat\\sheet-2\\orange-cat_sheet-2_row-02_grooming.gif",
+      "webp": "orange-cat\\sheet-2\\orange-cat_sheet-2_row-02_grooming.webp",
+      "label": "grooming"
+    },
+    {
+      "cat": "orange-cat",
+      "sheet": "sheet-2",
+      "row": "row-03",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "orange-cat\\sheet-2\\orange-cat_sheet-2_row-03_lying-down.gif",
+      "webp": "orange-cat\\sheet-2\\orange-cat_sheet-2_row-03_lying-down.webp",
+      "label": "lying-down"
+    },
+    {
+      "cat": "ragdoll",
+      "sheet": "sheet-1",
+      "row": "row-00",
+      "frame_count": 4,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png"
+      ],
+      "gif": "ragdoll\\sheet-1\\ragdoll_sheet-1_row-00_idle-original.gif",
+      "webp": "ragdoll\\sheet-1\\ragdoll_sheet-1_row-00_idle-original.webp",
+      "label": "idle-original"
+    },
+    {
+      "cat": "ragdoll",
+      "sheet": "sheet-1",
+      "row": "row-01",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "ragdoll\\sheet-1\\ragdoll_sheet-1_row-01_walking.gif",
+      "webp": "ragdoll\\sheet-1\\ragdoll_sheet-1_row-01_walking.webp",
+      "label": "walking"
+    },
+    {
+      "cat": "ragdoll",
+      "sheet": "sheet-1",
+      "row": "row-02",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "ragdoll\\sheet-1\\ragdoll_sheet-1_row-02_running.gif",
+      "webp": "ragdoll\\sheet-1\\ragdoll_sheet-1_row-02_running.webp",
+      "label": "running"
+    },
+    {
+      "cat": "ragdoll",
+      "sheet": "sheet-1",
+      "row": "row-03",
+      "frame_count": 3,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png"
+      ],
+      "gif": "ragdoll\\sheet-1\\ragdoll_sheet-1_row-03_jumping.gif",
+      "webp": "ragdoll\\sheet-1\\ragdoll_sheet-1_row-03_jumping.webp",
+      "label": "jumping"
+    },
+    {
+      "cat": "ragdoll",
+      "sheet": "sheet-1",
+      "row": "row-04",
+      "frame_count": 2,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png"
+      ],
+      "gif": "ragdoll\\sheet-1\\ragdoll_sheet-1_row-04_falling.gif",
+      "webp": "ragdoll\\sheet-1\\ragdoll_sheet-1_row-04_falling.webp",
+      "label": "falling"
+    },
+    {
+      "cat": "ragdoll",
+      "sheet": "sheet-1",
+      "row": "row-05",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "ragdoll\\sheet-1\\ragdoll_sheet-1_row-05_gliding.gif",
+      "webp": "ragdoll\\sheet-1\\ragdoll_sheet-1_row-05_gliding.webp",
+      "label": "gliding"
+    },
+    {
+      "cat": "ragdoll",
+      "sheet": "sheet-1",
+      "row": "row-06",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "ragdoll\\sheet-1\\ragdoll_sheet-1_row-06_sitting.gif",
+      "webp": "ragdoll\\sheet-1\\ragdoll_sheet-1_row-06_sitting.webp",
+      "label": "sitting"
+    },
+    {
+      "cat": "ragdoll",
+      "sheet": "sheet-1",
+      "row": "row-07",
+      "frame_count": 2,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png"
+      ],
+      "gif": "ragdoll\\sheet-1\\ragdoll_sheet-1_row-07_holding.gif",
+      "webp": "ragdoll\\sheet-1\\ragdoll_sheet-1_row-07_holding.webp",
+      "label": "holding"
+    },
+    {
+      "cat": "ragdoll",
+      "sheet": "sheet-1",
+      "row": "row-08",
+      "frame_count": 2,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png"
+      ],
+      "gif": "ragdoll\\sheet-1\\ragdoll_sheet-1_row-08_petting.gif",
+      "webp": "ragdoll\\sheet-1\\ragdoll_sheet-1_row-08_petting.webp",
+      "label": "petting"
+    },
+    {
+      "cat": "ragdoll",
+      "sheet": "sheet-1",
+      "row": "row-09",
+      "frame_count": 3,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png"
+      ],
+      "gif": "ragdoll\\sheet-1\\ragdoll_sheet-1_row-09_angry.gif",
+      "webp": "ragdoll\\sheet-1\\ragdoll_sheet-1_row-09_angry.webp",
+      "label": "angry"
+    },
+    {
+      "cat": "ragdoll",
+      "sheet": "sheet-1",
+      "row": "row-10",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "ragdoll\\sheet-1\\ragdoll_sheet-1_row-10_climbing.gif",
+      "webp": "ragdoll\\sheet-1\\ragdoll_sheet-1_row-10_climbing.webp",
+      "label": "climbing"
+    },
+    {
+      "cat": "ragdoll",
+      "sheet": "sheet-2",
+      "row": "row-00",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "ragdoll\\sheet-2\\ragdoll_sheet-2_row-00_idle.gif",
+      "webp": "ragdoll\\sheet-2\\ragdoll_sheet-2_row-00_idle.webp",
+      "label": "idle"
+    },
+    {
+      "cat": "ragdoll",
+      "sheet": "sheet-2",
+      "row": "row-01",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "ragdoll\\sheet-2\\ragdoll_sheet-2_row-01_sleep.gif",
+      "webp": "ragdoll\\sheet-2\\ragdoll_sheet-2_row-01_sleep.webp",
+      "label": "sleep"
+    },
+    {
+      "cat": "ragdoll",
+      "sheet": "sheet-2",
+      "row": "row-02",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "ragdoll\\sheet-2\\ragdoll_sheet-2_row-02_grooming.gif",
+      "webp": "ragdoll\\sheet-2\\ragdoll_sheet-2_row-02_grooming.webp",
+      "label": "grooming"
+    },
+    {
+      "cat": "ragdoll",
+      "sheet": "sheet-2",
+      "row": "row-03",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "ragdoll\\sheet-2\\ragdoll_sheet-2_row-03_lying-down.gif",
+      "webp": "ragdoll\\sheet-2\\ragdoll_sheet-2_row-03_lying-down.webp",
+      "label": "lying-down"
+    },
+    {
+      "cat": "siamese",
+      "sheet": "sheet-1",
+      "row": "row-00",
+      "frame_count": 4,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png"
+      ],
+      "gif": "siamese\\sheet-1\\siamese_sheet-1_row-00_idle-original.gif",
+      "webp": "siamese\\sheet-1\\siamese_sheet-1_row-00_idle-original.webp",
+      "label": "idle-original"
+    },
+    {
+      "cat": "siamese",
+      "sheet": "sheet-1",
+      "row": "row-01",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "siamese\\sheet-1\\siamese_sheet-1_row-01_walking.gif",
+      "webp": "siamese\\sheet-1\\siamese_sheet-1_row-01_walking.webp",
+      "label": "walking"
+    },
+    {
+      "cat": "siamese",
+      "sheet": "sheet-1",
+      "row": "row-02",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "siamese\\sheet-1\\siamese_sheet-1_row-02_running.gif",
+      "webp": "siamese\\sheet-1\\siamese_sheet-1_row-02_running.webp",
+      "label": "running"
+    },
+    {
+      "cat": "siamese",
+      "sheet": "sheet-1",
+      "row": "row-03",
+      "frame_count": 3,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png"
+      ],
+      "gif": "siamese\\sheet-1\\siamese_sheet-1_row-03_jumping.gif",
+      "webp": "siamese\\sheet-1\\siamese_sheet-1_row-03_jumping.webp",
+      "label": "jumping"
+    },
+    {
+      "cat": "siamese",
+      "sheet": "sheet-1",
+      "row": "row-04",
+      "frame_count": 2,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png"
+      ],
+      "gif": "siamese\\sheet-1\\siamese_sheet-1_row-04_falling.gif",
+      "webp": "siamese\\sheet-1\\siamese_sheet-1_row-04_falling.webp",
+      "label": "falling"
+    },
+    {
+      "cat": "siamese",
+      "sheet": "sheet-1",
+      "row": "row-05",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "siamese\\sheet-1\\siamese_sheet-1_row-05_gliding.gif",
+      "webp": "siamese\\sheet-1\\siamese_sheet-1_row-05_gliding.webp",
+      "label": "gliding"
+    },
+    {
+      "cat": "siamese",
+      "sheet": "sheet-1",
+      "row": "row-06",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "siamese\\sheet-1\\siamese_sheet-1_row-06_sitting.gif",
+      "webp": "siamese\\sheet-1\\siamese_sheet-1_row-06_sitting.webp",
+      "label": "sitting"
+    },
+    {
+      "cat": "siamese",
+      "sheet": "sheet-1",
+      "row": "row-07",
+      "frame_count": 2,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png"
+      ],
+      "gif": "siamese\\sheet-1\\siamese_sheet-1_row-07_holding.gif",
+      "webp": "siamese\\sheet-1\\siamese_sheet-1_row-07_holding.webp",
+      "label": "holding"
+    },
+    {
+      "cat": "siamese",
+      "sheet": "sheet-1",
+      "row": "row-08",
+      "frame_count": 2,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png"
+      ],
+      "gif": "siamese\\sheet-1\\siamese_sheet-1_row-08_petting.gif",
+      "webp": "siamese\\sheet-1\\siamese_sheet-1_row-08_petting.webp",
+      "label": "petting"
+    },
+    {
+      "cat": "siamese",
+      "sheet": "sheet-1",
+      "row": "row-09",
+      "frame_count": 3,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png"
+      ],
+      "gif": "siamese\\sheet-1\\siamese_sheet-1_row-09_angry.gif",
+      "webp": "siamese\\sheet-1\\siamese_sheet-1_row-09_angry.webp",
+      "label": "angry"
+    },
+    {
+      "cat": "siamese",
+      "sheet": "sheet-1",
+      "row": "row-10",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "siamese\\sheet-1\\siamese_sheet-1_row-10_climbing.gif",
+      "webp": "siamese\\sheet-1\\siamese_sheet-1_row-10_climbing.webp",
+      "label": "climbing"
+    },
+    {
+      "cat": "siamese",
+      "sheet": "sheet-2",
+      "row": "row-00",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "siamese\\sheet-2\\siamese_sheet-2_row-00_idle.gif",
+      "webp": "siamese\\sheet-2\\siamese_sheet-2_row-00_idle.webp",
+      "label": "idle"
+    },
+    {
+      "cat": "siamese",
+      "sheet": "sheet-2",
+      "row": "row-01",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "siamese\\sheet-2\\siamese_sheet-2_row-01_sleep.gif",
+      "webp": "siamese\\sheet-2\\siamese_sheet-2_row-01_sleep.webp",
+      "label": "sleep"
+    },
+    {
+      "cat": "siamese",
+      "sheet": "sheet-2",
+      "row": "row-02",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "siamese\\sheet-2\\siamese_sheet-2_row-02_grooming.gif",
+      "webp": "siamese\\sheet-2\\siamese_sheet-2_row-02_grooming.webp",
+      "label": "grooming"
+    },
+    {
+      "cat": "siamese",
+      "sheet": "sheet-2",
+      "row": "row-03",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "siamese\\sheet-2\\siamese_sheet-2_row-03_lying-down.gif",
+      "webp": "siamese\\sheet-2\\siamese_sheet-2_row-03_lying-down.webp",
+      "label": "lying-down"
+    },
+    {
+      "cat": "tuxedo",
+      "sheet": "sheet-1",
+      "row": "row-00",
+      "frame_count": 4,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png"
+      ],
+      "gif": "tuxedo\\sheet-1\\tuxedo_sheet-1_row-00_idle-original.gif",
+      "webp": "tuxedo\\sheet-1\\tuxedo_sheet-1_row-00_idle-original.webp",
+      "label": "idle-original"
+    },
+    {
+      "cat": "tuxedo",
+      "sheet": "sheet-1",
+      "row": "row-01",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "tuxedo\\sheet-1\\tuxedo_sheet-1_row-01_walking.gif",
+      "webp": "tuxedo\\sheet-1\\tuxedo_sheet-1_row-01_walking.webp",
+      "label": "walking"
+    },
+    {
+      "cat": "tuxedo",
+      "sheet": "sheet-1",
+      "row": "row-02",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "tuxedo\\sheet-1\\tuxedo_sheet-1_row-02_running.gif",
+      "webp": "tuxedo\\sheet-1\\tuxedo_sheet-1_row-02_running.webp",
+      "label": "running"
+    },
+    {
+      "cat": "tuxedo",
+      "sheet": "sheet-1",
+      "row": "row-03",
+      "frame_count": 3,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png"
+      ],
+      "gif": "tuxedo\\sheet-1\\tuxedo_sheet-1_row-03_jumping.gif",
+      "webp": "tuxedo\\sheet-1\\tuxedo_sheet-1_row-03_jumping.webp",
+      "label": "jumping"
+    },
+    {
+      "cat": "tuxedo",
+      "sheet": "sheet-1",
+      "row": "row-04",
+      "frame_count": 2,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png"
+      ],
+      "gif": "tuxedo\\sheet-1\\tuxedo_sheet-1_row-04_falling.gif",
+      "webp": "tuxedo\\sheet-1\\tuxedo_sheet-1_row-04_falling.webp",
+      "label": "falling"
+    },
+    {
+      "cat": "tuxedo",
+      "sheet": "sheet-1",
+      "row": "row-05",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "tuxedo\\sheet-1\\tuxedo_sheet-1_row-05_gliding.gif",
+      "webp": "tuxedo\\sheet-1\\tuxedo_sheet-1_row-05_gliding.webp",
+      "label": "gliding"
+    },
+    {
+      "cat": "tuxedo",
+      "sheet": "sheet-1",
+      "row": "row-06",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "tuxedo\\sheet-1\\tuxedo_sheet-1_row-06_sitting.gif",
+      "webp": "tuxedo\\sheet-1\\tuxedo_sheet-1_row-06_sitting.webp",
+      "label": "sitting"
+    },
+    {
+      "cat": "tuxedo",
+      "sheet": "sheet-1",
+      "row": "row-07",
+      "frame_count": 2,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png"
+      ],
+      "gif": "tuxedo\\sheet-1\\tuxedo_sheet-1_row-07_holding.gif",
+      "webp": "tuxedo\\sheet-1\\tuxedo_sheet-1_row-07_holding.webp",
+      "label": "holding"
+    },
+    {
+      "cat": "tuxedo",
+      "sheet": "sheet-1",
+      "row": "row-08",
+      "frame_count": 2,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png"
+      ],
+      "gif": "tuxedo\\sheet-1\\tuxedo_sheet-1_row-08_petting.gif",
+      "webp": "tuxedo\\sheet-1\\tuxedo_sheet-1_row-08_petting.webp",
+      "label": "petting"
+    },
+    {
+      "cat": "tuxedo",
+      "sheet": "sheet-1",
+      "row": "row-09",
+      "frame_count": 3,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png"
+      ],
+      "gif": "tuxedo\\sheet-1\\tuxedo_sheet-1_row-09_angry.gif",
+      "webp": "tuxedo\\sheet-1\\tuxedo_sheet-1_row-09_angry.webp",
+      "label": "angry"
+    },
+    {
+      "cat": "tuxedo",
+      "sheet": "sheet-1",
+      "row": "row-10",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "tuxedo\\sheet-1\\tuxedo_sheet-1_row-10_climbing.gif",
+      "webp": "tuxedo\\sheet-1\\tuxedo_sheet-1_row-10_climbing.webp",
+      "label": "climbing"
+    },
+    {
+      "cat": "tuxedo",
+      "sheet": "sheet-2",
+      "row": "row-00",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "tuxedo\\sheet-2\\tuxedo_sheet-2_row-00_idle.gif",
+      "webp": "tuxedo\\sheet-2\\tuxedo_sheet-2_row-00_idle.webp",
+      "label": "idle"
+    },
+    {
+      "cat": "tuxedo",
+      "sheet": "sheet-2",
+      "row": "row-01",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "tuxedo\\sheet-2\\tuxedo_sheet-2_row-01_sleep.gif",
+      "webp": "tuxedo\\sheet-2\\tuxedo_sheet-2_row-01_sleep.webp",
+      "label": "sleep"
+    },
+    {
+      "cat": "tuxedo",
+      "sheet": "sheet-2",
+      "row": "row-02",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "tuxedo\\sheet-2\\tuxedo_sheet-2_row-02_grooming.gif",
+      "webp": "tuxedo\\sheet-2\\tuxedo_sheet-2_row-02_grooming.webp",
+      "label": "grooming"
+    },
+    {
+      "cat": "tuxedo",
+      "sheet": "sheet-2",
+      "row": "row-03",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "tuxedo\\sheet-2\\tuxedo_sheet-2_row-03_lying-down.gif",
+      "webp": "tuxedo\\sheet-2\\tuxedo_sheet-2_row-03_lying-down.webp",
+      "label": "lying-down"
+    },
+    {
+      "cat": "white-cat",
+      "sheet": "sheet-1",
+      "row": "row-00",
+      "frame_count": 4,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png"
+      ],
+      "gif": "white-cat\\sheet-1\\white-cat_sheet-1_row-00_idle-original.gif",
+      "webp": "white-cat\\sheet-1\\white-cat_sheet-1_row-00_idle-original.webp",
+      "label": "idle-original"
+    },
+    {
+      "cat": "white-cat",
+      "sheet": "sheet-1",
+      "row": "row-01",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "white-cat\\sheet-1\\white-cat_sheet-1_row-01_walking.gif",
+      "webp": "white-cat\\sheet-1\\white-cat_sheet-1_row-01_walking.webp",
+      "label": "walking"
+    },
+    {
+      "cat": "white-cat",
+      "sheet": "sheet-1",
+      "row": "row-02",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "white-cat\\sheet-1\\white-cat_sheet-1_row-02_running.gif",
+      "webp": "white-cat\\sheet-1\\white-cat_sheet-1_row-02_running.webp",
+      "label": "running"
+    },
+    {
+      "cat": "white-cat",
+      "sheet": "sheet-1",
+      "row": "row-03",
+      "frame_count": 3,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png"
+      ],
+      "gif": "white-cat\\sheet-1\\white-cat_sheet-1_row-03_jumping.gif",
+      "webp": "white-cat\\sheet-1\\white-cat_sheet-1_row-03_jumping.webp",
+      "label": "jumping"
+    },
+    {
+      "cat": "white-cat",
+      "sheet": "sheet-1",
+      "row": "row-04",
+      "frame_count": 2,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png"
+      ],
+      "gif": "white-cat\\sheet-1\\white-cat_sheet-1_row-04_falling.gif",
+      "webp": "white-cat\\sheet-1\\white-cat_sheet-1_row-04_falling.webp",
+      "label": "falling"
+    },
+    {
+      "cat": "white-cat",
+      "sheet": "sheet-1",
+      "row": "row-05",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "white-cat\\sheet-1\\white-cat_sheet-1_row-05_gliding.gif",
+      "webp": "white-cat\\sheet-1\\white-cat_sheet-1_row-05_gliding.webp",
+      "label": "gliding"
+    },
+    {
+      "cat": "white-cat",
+      "sheet": "sheet-1",
+      "row": "row-06",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "white-cat\\sheet-1\\white-cat_sheet-1_row-06_sitting.gif",
+      "webp": "white-cat\\sheet-1\\white-cat_sheet-1_row-06_sitting.webp",
+      "label": "sitting"
+    },
+    {
+      "cat": "white-cat",
+      "sheet": "sheet-1",
+      "row": "row-07",
+      "frame_count": 2,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png"
+      ],
+      "gif": "white-cat\\sheet-1\\white-cat_sheet-1_row-07_holding.gif",
+      "webp": "white-cat\\sheet-1\\white-cat_sheet-1_row-07_holding.webp",
+      "label": "holding"
+    },
+    {
+      "cat": "white-cat",
+      "sheet": "sheet-1",
+      "row": "row-08",
+      "frame_count": 2,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png"
+      ],
+      "gif": "white-cat\\sheet-1\\white-cat_sheet-1_row-08_petting.gif",
+      "webp": "white-cat\\sheet-1\\white-cat_sheet-1_row-08_petting.webp",
+      "label": "petting"
+    },
+    {
+      "cat": "white-cat",
+      "sheet": "sheet-1",
+      "row": "row-09",
+      "frame_count": 3,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png"
+      ],
+      "gif": "white-cat\\sheet-1\\white-cat_sheet-1_row-09_angry.gif",
+      "webp": "white-cat\\sheet-1\\white-cat_sheet-1_row-09_angry.webp",
+      "label": "angry"
+    },
+    {
+      "cat": "white-cat",
+      "sheet": "sheet-1",
+      "row": "row-10",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "white-cat\\sheet-1\\white-cat_sheet-1_row-10_climbing.gif",
+      "webp": "white-cat\\sheet-1\\white-cat_sheet-1_row-10_climbing.webp",
+      "label": "climbing"
+    },
+    {
+      "cat": "white-cat",
+      "sheet": "sheet-2",
+      "row": "row-00",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "white-cat\\sheet-2\\white-cat_sheet-2_row-00_idle.gif",
+      "webp": "white-cat\\sheet-2\\white-cat_sheet-2_row-00_idle.webp",
+      "label": "idle"
+    },
+    {
+      "cat": "white-cat",
+      "sheet": "sheet-2",
+      "row": "row-01",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "white-cat\\sheet-2\\white-cat_sheet-2_row-01_sleep.gif",
+      "webp": "white-cat\\sheet-2\\white-cat_sheet-2_row-01_sleep.webp",
+      "label": "sleep"
+    },
+    {
+      "cat": "white-cat",
+      "sheet": "sheet-2",
+      "row": "row-02",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "white-cat\\sheet-2\\white-cat_sheet-2_row-02_grooming.gif",
+      "webp": "white-cat\\sheet-2\\white-cat_sheet-2_row-02_grooming.webp",
+      "label": "grooming"
+    },
+    {
+      "cat": "white-cat",
+      "sheet": "sheet-2",
+      "row": "row-03",
+      "frame_count": 6,
+      "frames": [
+        "frame-00.png",
+        "frame-01.png",
+        "frame-02.png",
+        "frame-03.png",
+        "frame-04.png",
+        "frame-05.png"
+      ],
+      "gif": "white-cat\\sheet-2\\white-cat_sheet-2_row-03_lying-down.gif",
+      "webp": "white-cat\\sheet-2\\white-cat_sheet-2_row-03_lying-down.webp",
+      "label": "lying-down"
+    }
+  ],
+  "created_gif": 150,
+  "created_webp": 150,
+  "webp_errors": [],
+  "row_labels": {
+    "sheet-1": {
+      "row-00": "idle-original",
+      "row-01": "walking",
+      "row-02": "running",
+      "row-03": "jumping",
+      "row-04": "falling",
+      "row-05": "gliding",
+      "row-06": "sitting",
+      "row-07": "holding",
+      "row-08": "petting",
+      "row-09": "angry",
+      "row-10": "climbing"
+    },
+    "sheet-2": {
+      "row-00": "idle",
+      "row-01": "sleep",
+      "row-02": "grooming",
+      "row-03": "lying-down"
+    }
+  }
+}

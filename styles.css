@@ -193,6 +193,7 @@ h3 {
 }
 
 .hero-stage {
+  position: relative;
   min-height: 28rem;
   display: grid;
   place-items: end center;
@@ -208,6 +209,7 @@ h3 {
   position: relative;
   width: min(100%, 30rem);
   height: 24rem;
+  z-index: 2;
 }
 
 .sprite,
@@ -216,6 +218,7 @@ h3 {
   width: 256px;
   height: 256px;
   image-rendering: auto;
+  object-fit: contain;
   transform-origin: center bottom;
 }
 
@@ -253,6 +256,36 @@ h3 {
   right: 0;
   z-index: 1;
   transform: scale(.9);
+}
+
+.stage-prop {
+  position: absolute;
+  display: block;
+  pointer-events: none;
+  user-select: none;
+}
+
+.cat-tree-prop {
+  right: 1.15rem;
+  bottom: 3.5rem;
+  width: 190px;
+  opacity: .92;
+  z-index: 1;
+}
+
+.wool-ball-prop {
+  left: 4.5rem;
+  bottom: 2.2rem;
+  width: 44px;
+  z-index: 4;
+}
+
+.wand-prop {
+  right: 7rem;
+  bottom: 2.05rem;
+  width: 88px;
+  transform: rotate(-18deg);
+  z-index: 4;
 }
 
 .feature-band {
@@ -414,6 +447,20 @@ h3 {
   transform: scale(.84);
 }
 
+.orbit-ball-prop {
+  left: 2rem;
+  bottom: 1.15rem;
+  width: 40px;
+  z-index: 5;
+}
+
+.orbit-robot-prop {
+  right: 1.6rem;
+  bottom: 1.25rem;
+  width: 88px;
+  z-index: 5;
+}
+
 .progress-wrap {
   display: flex;
   align-items: center;
@@ -470,6 +517,7 @@ h3 {
 }
 
 .result-art {
+  position: relative;
   min-height: 24rem;
   display: grid;
   place-items: center;
@@ -477,6 +525,25 @@ h3 {
   background:
     linear-gradient(transparent 68%, #20202214 68% 69%, transparent 69%),
     #fff0bd;
+}
+
+.result-puzzle-prop {
+  right: 1.4rem;
+  bottom: 1.35rem;
+  width: 155px;
+  z-index: 1;
+}
+
+.result-ball-prop {
+  left: 2.25rem;
+  bottom: 1.9rem;
+  width: 44px;
+  z-index: 3;
+}
+
+.result-art .result-sprite {
+  position: relative;
+  z-index: 2;
 }
 
 .result-copy h2 {

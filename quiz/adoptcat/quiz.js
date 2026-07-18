@@ -24,6 +24,19 @@ const spriteClass = {
   whiteCat: "white-cat"
 };
 
+const resultAnimation = {
+  blackCat: "sitting",
+  calico: "grooming",
+  greyTabby: "running",
+  maineCoon: "walking",
+  orangeCat: "petting",
+  ragdoll: "sleeping",
+  britishShorthair: "sitting",
+  siamese: "grooming",
+  tuxedo: "walking",
+  whiteCat: "sleeping"
+};
+
 const questions = [
   {
     id: "afternoon",
@@ -699,8 +712,9 @@ function renderResult(id) {
   resultDescription.textContent = cat.description;
   resultAdopt.textContent = translations[lang].result.adopt;
   shareText.textContent = translations[lang].result.share.replace("{cat}", cat.name);
-  resultSprite.className = `sprite cat-canvas result-sprite ${spriteClass[id]}`;
-  window.setCatCanvas?.(resultSprite, id, 6);
+  resultSprite.className = `sprite cat-animation result-sprite ${spriteClass[id]}`;
+  resultSprite.alt = cat.name;
+  window.setCatAnimation?.(resultSprite, id, resultAnimation[id] || "sitting");
 }
 
 languageSelect.value = lang;
