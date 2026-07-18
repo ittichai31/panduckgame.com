@@ -22,7 +22,20 @@ const catAnimationFiles = {
 
 const catAnimationOverrides = {
   blackCat: {
-    sitting: "/animations/black-cat/sheet-1/black-cat_sheet-1_row-06_sitting_v2.webp"
+    walking: "/animations/black-cat/sheet-1/black-cat_sheet-1_row-01_walking_v2.webp",
+    running: "/animations/black-cat/sheet-1/black-cat_sheet-1_row-02_running_v2.webp",
+    sitting: "/animations/black-cat/sheet-1/black-cat_sheet-1_row-06_sitting_v2.webp",
+    petting: "/animations/black-cat/sheet-1/black-cat_sheet-1_row-08_petting_v2.webp",
+    sleeping: "/animations/black-cat/sheet-2/black-cat_sheet-2_row-01_sleep_v2.webp",
+    grooming: "/animations/black-cat/sheet-2/black-cat_sheet-2_row-02_grooming_v2.webp"
+  },
+  orangeCat: {
+    walking: "/animations/orange-cat/sheet-1/orange-cat_sheet-1_row-01_walking_v2.webp",
+    running: "/animations/orange-cat/sheet-1/orange-cat_sheet-1_row-02_running_v2.webp",
+    sitting: "/animations/orange-cat/sheet-1/orange-cat_sheet-1_row-06_sitting_v2.webp",
+    petting: "/animations/orange-cat/sheet-1/orange-cat_sheet-1_row-08_petting_v2.webp",
+    sleeping: "/animations/orange-cat/sheet-2/orange-cat_sheet-2_row-01_sleep_v2.webp",
+    grooming: "/animations/orange-cat/sheet-2/orange-cat_sheet-2_row-02_grooming_v2.webp"
   }
 };
 
