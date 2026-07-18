@@ -29,6 +29,30 @@ const catAnimationOverrides = {
     sleeping: "/animations/black-cat/sheet-2/black-cat_sheet-2_row-01_sleep_v2.webp",
     grooming: "/animations/black-cat/sheet-2/black-cat_sheet-2_row-02_grooming_v2.webp"
   },
+  calico: {
+    walking: "/animations/calico/sheet-1/calico_sheet-1_row-01_walking_v2.webp",
+    running: "/animations/calico/sheet-1/calico_sheet-1_row-02_running_v2.webp",
+    sitting: "/animations/calico/sheet-1/calico_sheet-1_row-06_sitting_v2.webp",
+    petting: "/animations/calico/sheet-1/calico_sheet-1_row-08_petting_v2.webp",
+    sleeping: "/animations/calico/sheet-2/calico_sheet-2_row-01_sleep_v2.webp",
+    grooming: "/animations/calico/sheet-2/calico_sheet-2_row-02_grooming_v2.webp"
+  },
+  greyTabby: {
+    walking: "/animations/grey-tabby/sheet-1/grey-tabby_sheet-1_row-01_walking_v2.webp",
+    running: "/animations/grey-tabby/sheet-1/grey-tabby_sheet-1_row-02_running_v2.webp",
+    sitting: "/animations/grey-tabby/sheet-1/grey-tabby_sheet-1_row-06_sitting_v2.webp",
+    petting: "/animations/grey-tabby/sheet-1/grey-tabby_sheet-1_row-08_petting_v2.webp",
+    sleeping: "/animations/grey-tabby/sheet-2/grey-tabby_sheet-2_row-01_sleep_v2.webp",
+    grooming: "/animations/grey-tabby/sheet-2/grey-tabby_sheet-2_row-02_grooming_v2.webp"
+  },
+  maineCoon: {
+    walking: "/animations/maine-coon/sheet-1/maine-coon_sheet-1_row-01_walking_v2.webp",
+    running: "/animations/maine-coon/sheet-1/maine-coon_sheet-1_row-02_running_v2.webp",
+    sitting: "/animations/maine-coon/sheet-1/maine-coon_sheet-1_row-06_sitting_v2.webp",
+    petting: "/animations/maine-coon/sheet-1/maine-coon_sheet-1_row-08_petting_v2.webp",
+    sleeping: "/animations/maine-coon/sheet-2/maine-coon_sheet-2_row-01_sleep_v2.webp",
+    grooming: "/animations/maine-coon/sheet-2/maine-coon_sheet-2_row-02_grooming_v2.webp"
+  },
   orangeCat: {
     walking: "/animations/orange-cat/sheet-1/orange-cat_sheet-1_row-01_walking_v2.webp",
     running: "/animations/orange-cat/sheet-1/orange-cat_sheet-1_row-02_running_v2.webp",
@@ -36,6 +60,38 @@ const catAnimationOverrides = {
     petting: "/animations/orange-cat/sheet-1/orange-cat_sheet-1_row-08_petting_v2.webp",
     sleeping: "/animations/orange-cat/sheet-2/orange-cat_sheet-2_row-01_sleep_v2.webp",
     grooming: "/animations/orange-cat/sheet-2/orange-cat_sheet-2_row-02_grooming_v2.webp"
+  },
+  ragdoll: {
+    walking: "/animations/ragdoll/sheet-1/ragdoll_sheet-1_row-01_walking_v2.webp",
+    running: "/animations/ragdoll/sheet-1/ragdoll_sheet-1_row-02_running_v2.webp",
+    sitting: "/animations/ragdoll/sheet-1/ragdoll_sheet-1_row-06_sitting_v2.webp",
+    petting: "/animations/ragdoll/sheet-1/ragdoll_sheet-1_row-08_petting_v2.webp",
+    sleeping: "/animations/ragdoll/sheet-2/ragdoll_sheet-2_row-01_sleep_v2.webp",
+    grooming: "/animations/ragdoll/sheet-2/ragdoll_sheet-2_row-02_grooming_v2.webp"
+  },
+  britishShorthair: {
+    walking: "/animations/british-shorthair/sheet-1/british-shorthair_sheet-1_row-01_walking_v2.webp",
+    running: "/animations/british-shorthair/sheet-1/british-shorthair_sheet-1_row-02_running_v2.webp",
+    sitting: "/animations/british-shorthair/sheet-1/british-shorthair_sheet-1_row-06_sitting_v2.webp",
+    petting: "/animations/british-shorthair/sheet-1/british-shorthair_sheet-1_row-08_petting_v2.webp",
+    sleeping: "/animations/british-shorthair/sheet-2/british-shorthair_sheet-2_row-01_sleep_v2.webp",
+    grooming: "/animations/british-shorthair/sheet-2/british-shorthair_sheet-2_row-02_grooming_v2.webp"
+  },
+  siamese: {
+    walking: "/animations/siamese/sheet-1/siamese_sheet-1_row-01_walking_v2.webp",
+    running: "/animations/siamese/sheet-1/siamese_sheet-1_row-02_running_v2.webp",
+    sitting: "/animations/siamese/sheet-1/siamese_sheet-1_row-06_sitting_v2.webp",
+    petting: "/animations/siamese/sheet-1/siamese_sheet-1_row-08_petting_v2.webp",
+    sleeping: "/animations/siamese/sheet-2/siamese_sheet-2_row-01_sleep_v2.webp",
+    grooming: "/animations/siamese/sheet-2/siamese_sheet-2_row-02_grooming_v2.webp"
+  },
+  tuxedo: {
+    walking: "/animations/tuxedo/sheet-1/tuxedo_sheet-1_row-01_walking_v2.webp",
+    running: "/animations/tuxedo/sheet-1/tuxedo_sheet-1_row-02_running_v2.webp",
+    sitting: "/animations/tuxedo/sheet-1/tuxedo_sheet-1_row-06_sitting_v2.webp",
+    petting: "/animations/tuxedo/sheet-1/tuxedo_sheet-1_row-08_petting_v2.webp",
+    sleeping: "/animations/tuxedo/sheet-2/tuxedo_sheet-2_row-01_sleep_v2.webp",
+    grooming: "/animations/tuxedo/sheet-2/tuxedo_sheet-2_row-02_grooming_v2.webp"
   },
   whiteCat: {
     walking: "/animations/white-cat/sheet-1/white-cat_sheet-1_row-01_walking_v2.webp",
