@@ -330,6 +330,11 @@ h3 {
   transform: scale(.86);
 }
 
+.sprite-pedestal .orange-cat.moving-cat {
+  --travel: 8.2rem;
+  animation-duration: 7.2s;
+}
+
 .sprite-pedestal .tuxedo {
   left: 2.1rem;
   bottom: 2.15rem;
@@ -528,7 +533,7 @@ h3 {
   z-index: 2;
 }
 
-.cat-orbit .siamese {
+.cat-orbit .british-shorthair {
   right: 1.15rem;
   bottom: .55rem;
   transform: scale(.64);
