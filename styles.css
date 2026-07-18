@@ -544,6 +544,17 @@ h3 {
   padding: 1.25rem;
 }
 
+.sister-art {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin-bottom: 1rem;
+  border: 2px solid var(--ink);
+  border-radius: .55rem;
+  background: #111;
+  box-shadow: 4px 4px 0 #000;
+  object-fit: cover;
+}
+
 .sister-card p:not(.project-type) {
   color: #4d3e32;
   line-height: 1.55;
