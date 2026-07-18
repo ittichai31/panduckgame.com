@@ -97,6 +97,12 @@ select {
   letter-spacing: 0;
 }
 
+.brand-logo {
+  display: block;
+  width: clamp(8rem, 16vw, 12rem);
+  height: auto;
+}
+
 .brand-mark {
   display: inline-grid;
   place-items: center;
@@ -106,6 +112,15 @@ select {
   border-radius: .5rem;
   background: var(--yellow);
   box-shadow: 4px 4px 0 #000;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
 }
 
 .nav-links {
