@@ -321,25 +321,27 @@ h3 {
 
 .sprite-pedestal .sprite {
   position: absolute;
-  bottom: 1.35rem;
 }
 
 .sprite-pedestal .orange-cat {
   left: 13.4rem;
+  bottom: .85rem;
   z-index: 3;
   transform: scale(.86);
 }
 
 .sprite-pedestal .tuxedo {
   left: 2.1rem;
+  bottom: 2.15rem;
   z-index: 2;
-  transform: scale(.7);
+  transform: scale(.64);
 }
 
 .sprite-pedestal .ragdoll {
-  right: 1.4rem;
+  right: 1.9rem;
+  bottom: 2.35rem;
   z-index: 1;
-  transform: scale(.68);
+  transform: scale(.6);
 }
 
 .stage-prop {
@@ -350,25 +352,17 @@ h3 {
 }
 
 .cat-tree-prop {
-  right: 2rem;
-  bottom: 3.15rem;
-  width: 152px;
-  opacity: .92;
-  z-index: 1;
+  right: 1.45rem;
+  bottom: 4.4rem;
+  width: 122px;
+  opacity: .72;
+  z-index: 0;
 }
 
 .wool-ball-prop {
   left: 4rem;
   bottom: 2.2rem;
   width: 35px;
-  z-index: 4;
-}
-
-.wand-prop {
-  right: 8.5rem;
-  bottom: 1.95rem;
-  width: 70px;
-  transform: rotate(-18deg);
   z-index: 4;
 }
 
@@ -695,17 +689,20 @@ h3 {
 
   .sprite-pedestal .orange-cat {
     left: 45%;
+    bottom: .55rem;
     transform: translateX(-50%) scale(.78);
   }
 
   .sprite-pedestal .tuxedo {
     left: 1rem;
-    transform: scale(.62);
+    bottom: 1.65rem;
+    transform: scale(.58);
   }
 
   .sprite-pedestal .ragdoll {
     right: .5rem;
-    transform: scale(.6);
+    bottom: 1.85rem;
+    transform: scale(.56);
   }
 
   .answer-grid {
