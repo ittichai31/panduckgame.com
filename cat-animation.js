@@ -36,6 +36,14 @@ const catAnimationOverrides = {
     petting: "/animations/orange-cat/sheet-1/orange-cat_sheet-1_row-08_petting_v2.webp",
     sleeping: "/animations/orange-cat/sheet-2/orange-cat_sheet-2_row-01_sleep_v2.webp",
     grooming: "/animations/orange-cat/sheet-2/orange-cat_sheet-2_row-02_grooming_v2.webp"
+  },
+  whiteCat: {
+    walking: "/animations/white-cat/sheet-1/white-cat_sheet-1_row-01_walking_v2.webp",
+    running: "/animations/white-cat/sheet-1/white-cat_sheet-1_row-02_running_v2.webp",
+    sitting: "/animations/white-cat/sheet-1/white-cat_sheet-1_row-06_sitting_v2.webp",
+    petting: "/animations/white-cat/sheet-1/white-cat_sheet-1_row-08_petting_v2.webp",
+    sleeping: "/animations/white-cat/sheet-2/white-cat_sheet-2_row-01_sleep_v2.webp",
+    grooming: "/animations/white-cat/sheet-2/white-cat_sheet-2_row-02_grooming_v2.webp"
   }
 };
 

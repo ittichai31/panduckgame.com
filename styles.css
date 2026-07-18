@@ -193,6 +193,18 @@ h3 {
   margin-top: 1.5rem;
 }
 
+.intro-actions {
+  align-items: flex-start;
+  flex-direction: column;
+  gap: .65rem;
+}
+
+.compact-home-button {
+  min-height: 2.35rem;
+  padding: .48rem .8rem;
+  font-size: .86rem;
+}
+
 .button {
   display: inline-flex;
   min-height: 3rem;
