@@ -863,13 +863,13 @@ h3 {
 .pet-origin-cats {
   display: grid;
   grid-template-columns: 1.2fr .8fr;
-  align-items: start;
+  align-items: stretch;
   gap: 1rem;
 }
 
 .pet-origin-cats img {
   aspect-ratio: auto;
-  height: auto;
+  height: clamp(12rem, 18vw, 15.5rem);
   object-fit: contain;
 }
 
@@ -903,6 +903,10 @@ h3 {
 
 .pet-final-cta .button {
   min-width: 12rem;
+}
+
+.final-steam-button {
+  min-width: 14rem;
 }
 
 .quiz-promo {
@@ -1287,6 +1291,10 @@ h3 {
   .pet-gallery,
   .pet-origin-cats {
     grid-template-columns: 1fr;
+  }
+
+  .pet-origin-cats img {
+    height: auto;
   }
 
   .hero-stage {
