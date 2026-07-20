@@ -252,6 +252,19 @@ h3 {
   background: #fffdf7;
 }
 
+.steam-logo {
+  display: inline-block;
+  width: auto;
+  height: 1.05em;
+  flex: 0 0 auto;
+}
+
+.steam-pill,
+.steam-link,
+.steam-button {
+  gap: .45rem;
+}
+
 .hero-stage,
 .quiz-panel,
 .project-card,
@@ -446,6 +459,7 @@ h3 {
 
 .project-type {
   display: inline-flex;
+  align-items: center;
   margin: 0 0 1.5rem;
   border: 2px solid var(--ink);
   border-radius: 999px;
@@ -453,6 +467,12 @@ h3 {
   background: #fff;
   font-size: .78rem;
   font-weight: 900;
+}
+
+.project-type.steam-pill,
+.steam-link {
+  background: #171a21;
+  color: #fff;
 }
 
 .accent-yellow {
