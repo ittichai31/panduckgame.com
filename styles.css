@@ -765,13 +765,21 @@ h3 {
 .pet-hero-copy {
   position: relative;
   z-index: 2;
-  max-width: 45rem;
+  display: grid;
+  grid-template-columns: minmax(0, .95fr) minmax(19rem, .9fr);
+  align-items: center;
+  gap: 1.5rem;
+  max-width: 70rem;
+}
+
+.pet-hero-text {
+  min-width: 0;
 }
 
 .pet-game-logo {
   display: block;
-  width: min(34rem, 92vw);
-  margin: 0 0 1.25rem;
+  width: min(33rem, 100%);
+  margin: 0;
   filter: drop-shadow(0 10px 0 #00000014);
 }
 
@@ -873,7 +881,6 @@ h3 {
 }
 
 .pet-media-section,
-.pet-origin-section,
 .pet-roadmap-section,
 .pet-final-cta {
   display: grid;
@@ -884,7 +891,6 @@ h3 {
 
 .pet-trailer,
 .pet-gallery img,
-.pet-origin-cats img,
 .pet-final-cta img {
   width: 100%;
   border: 3px solid var(--ink);
@@ -913,6 +919,7 @@ h3 {
   display: grid;
   grid-template-columns: 1.2fr .8fr;
   align-items: stretch;
+  margin-top: 1.5rem;
   gap: 1rem;
 }
 
@@ -920,6 +927,9 @@ h3 {
   aspect-ratio: auto;
   height: clamp(12rem, 18vw, 15.5rem);
   object-fit: contain;
+  width: 100%;
+  border-radius: .6rem;
+  filter: drop-shadow(6px 6px 0 #000);
 }
 
 .pet-roadmap-section {
@@ -1332,6 +1342,14 @@ h3 {
     position: relative;
     left: auto;
     transform: none;
+  }
+
+  .pet-hero-copy {
+    grid-template-columns: 1fr;
+  }
+
+  .pet-game-logo {
+    width: min(28rem, 100%);
   }
 
   .pet-hero {
