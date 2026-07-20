@@ -533,6 +533,55 @@ h3 {
   box-shadow: 2px 2px 0 #000;
 }
 
+.site-footer {
+  display: grid;
+  grid-template-columns: minmax(0, .7fr) minmax(0, 1.3fr);
+  gap: 1.5rem;
+  width: min(1120px, calc(100% - 2rem));
+  margin: 0 auto 2rem;
+  border: 3px solid var(--ink);
+  border-radius: .9rem;
+  padding: 1rem;
+  background: #171411;
+  color: #fffaf0;
+  box-shadow: var(--shadow);
+}
+
+.site-footer div {
+  display: grid;
+  align-content: start;
+  gap: .35rem;
+}
+
+.site-footer strong {
+  font-size: 1.1rem;
+}
+
+.site-footer a {
+  color: #fffaf0;
+  font-weight: 850;
+}
+
+.site-footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: .5rem;
+}
+
+.site-footer nav a {
+  border: 2px solid #fffaf0;
+  border-radius: 999px;
+  padding: .4rem .65rem;
+  background: #fffaf010;
+}
+
+.site-footer nav a:hover,
+.site-footer nav a:focus-visible {
+  background: #39c8bd;
+  color: var(--ink);
+}
+
 .links-shell {
   padding: 1rem 0 2rem;
 }
@@ -1232,7 +1281,8 @@ h3 {
   .site-header,
   .quiz-topbar,
   .quiz-promo,
-  .social-band {
+  .social-band,
+  .site-footer {
     align-items: flex-start;
     flex-direction: column;
   }
@@ -1254,6 +1304,14 @@ h3 {
   }
 
   .social-links {
+    justify-content: flex-start;
+  }
+
+  .site-footer {
+    grid-template-columns: 1fr;
+  }
+
+  .site-footer nav {
     justify-content: flex-start;
   }
 
