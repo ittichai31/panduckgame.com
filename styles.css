@@ -640,6 +640,230 @@ h3 {
   text-transform: uppercase;
 }
 
+.pet-page {
+  background:
+    radial-gradient(circle at 8% 12%, #ffd75f45 0 11rem, transparent 11.2rem),
+    radial-gradient(circle at 95% 6%, #39c8bd40 0 13rem, transparent 13.2rem),
+    linear-gradient(180deg, #fff7ea 0%, #ffe4b7 100%);
+}
+
+.pet-page::before,
+.pet-page::after {
+  display: none;
+}
+
+.pet-header {
+  position: absolute;
+  left: 50%;
+  z-index: 5;
+  transform: translateX(-50%);
+}
+
+.pet-hero {
+  position: relative;
+  min-height: 92vh;
+  display: grid;
+  align-items: end;
+  padding: 7.5rem max(1rem, calc((100vw - 1120px) / 2)) 4rem;
+  overflow: hidden;
+  background:
+    linear-gradient(90deg, #fff7eadb 0%, #fff7eab8 42%, #fff7ea34 68%, #fff7ea00 100%),
+    url("/assets/desktop-pet-landing/page-background.png") center / cover no-repeat;
+}
+
+.pet-hero::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 18rem;
+  pointer-events: none;
+  background: linear-gradient(180deg, transparent 0%, #fff7ea 88%);
+}
+
+.pet-hero-copy {
+  position: relative;
+  z-index: 2;
+  max-width: 45rem;
+}
+
+.pet-game-logo {
+  display: block;
+  width: min(34rem, 92vw);
+  margin: 0 0 1.25rem;
+  filter: drop-shadow(0 10px 0 #00000014);
+}
+
+.pet-hero h1 {
+  max-width: 10ch;
+}
+
+.pet-tagline {
+  margin: .8rem 0 0;
+  color: #2c241d;
+  font-size: clamp(1.45rem, 3vw, 2.2rem);
+  font-weight: 900;
+  line-height: 1.08;
+}
+
+.pet-quick-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .55rem;
+  margin-top: 1.25rem;
+}
+
+.pet-quick-facts span {
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+  padding: .4rem .65rem;
+  background: #fffdf7;
+  font-weight: 900;
+  box-shadow: 3px 3px 0 #000;
+}
+
+.pet-steam-strip,
+.pet-section,
+.pet-media-section,
+.pet-final-cta {
+  width: min(1120px, calc(100% - 2rem));
+  margin: 0 auto 4rem;
+}
+
+.pet-steam-strip {
+  display: grid;
+  grid-template-columns: minmax(0, .9fr) minmax(0, 1.2fr) auto;
+  align-items: center;
+  gap: 1.25rem;
+  border: 3px solid var(--ink);
+  border-radius: .9rem;
+  padding: 1rem;
+  background: linear-gradient(135deg, #16120f 0%, #352112 100%);
+  color: #fffaf0;
+  box-shadow: var(--shadow);
+}
+
+.pet-steam-strip h2 {
+  color: #fffaf0;
+  font-size: clamp(1.4rem, 3vw, 2.2rem);
+  text-shadow: none;
+}
+
+.pet-steam-strip p {
+  margin: 0;
+  color: #ead9c3;
+  line-height: 1.45;
+}
+
+.pet-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.pet-feature-card,
+.pet-roadmap-list p {
+  border: 3px solid var(--ink);
+  border-radius: .75rem;
+  padding: 1.1rem;
+  background: #fffdf7;
+  box-shadow: 4px 4px 0 #000;
+}
+
+.pet-feature-card:nth-child(1) {
+  background: linear-gradient(180deg, #bdf2e8 0%, #fffdf7 100%);
+}
+
+.pet-feature-card:nth-child(2) {
+  background: linear-gradient(180deg, #ffe291 0%, #fffdf7 100%);
+}
+
+.pet-feature-card:nth-child(3) {
+  background: linear-gradient(180deg, #ffc08f 0%, #fffdf7 100%);
+}
+
+.pet-feature-card p,
+.pet-origin-copy p,
+.pet-roadmap-list p,
+.pet-final-cta p,
+.pet-media-copy p {
+  color: #50483f;
+  line-height: 1.55;
+}
+
+.pet-media-section,
+.pet-origin-section,
+.pet-roadmap-section,
+.pet-final-cta {
+  display: grid;
+  grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr);
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.pet-trailer,
+.pet-gallery img,
+.pet-origin-cats img,
+.pet-final-cta img {
+  width: 100%;
+  border: 3px solid var(--ink);
+  border-radius: .9rem;
+  background: #fffdf7;
+  box-shadow: 6px 6px 0 #000;
+}
+
+.pet-trailer {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.pet-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.pet-gallery img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.pet-origin-cats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.pet-origin-cats img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.pet-roadmap-section {
+  align-items: start;
+}
+
+.pet-roadmap-list {
+  display: grid;
+  gap: .8rem;
+}
+
+.pet-roadmap-list p {
+  margin: 0;
+}
+
+.pet-final-cta {
+  margin-bottom: 5rem;
+  border: 3px solid var(--ink);
+  border-radius: 1rem;
+  padding: 1.25rem;
+  background:
+    radial-gradient(circle at 96% 8%, #39c8bd33 0 8rem, transparent 8.2rem),
+    linear-gradient(135deg, #fffdf7 0%, #fff0d1 100%);
+  box-shadow: var(--shadow);
+}
+
 .quiz-promo {
   display: flex;
   align-items: center;
@@ -970,6 +1194,12 @@ h3 {
 
   .home-hero,
   .links-panel,
+  .pet-steam-strip,
+  .pet-feature-grid,
+  .pet-media-section,
+  .pet-origin-section,
+  .pet-roadmap-section,
+  .pet-final-cta,
   .intro-layout,
   .result-layout,
   .project-grid,
@@ -993,6 +1223,29 @@ h3 {
   .home-hero {
     min-height: auto;
     padding-top: 1rem;
+  }
+
+  .pet-header {
+    position: relative;
+    left: auto;
+    transform: none;
+  }
+
+  .pet-hero {
+    min-height: 82vh;
+    padding-top: 2rem;
+    background:
+      linear-gradient(180deg, #fff7eaf2 0%, #fff7ead1 48%, #fff7ea4d 100%),
+      url("/assets/desktop-pet-landing/page-background.png") center / cover no-repeat;
+  }
+
+  .pet-steam-strip {
+    align-items: stretch;
+  }
+
+  .pet-gallery,
+  .pet-origin-cats {
+    grid-template-columns: 1fr;
   }
 
   .hero-stage {
@@ -1040,6 +1293,10 @@ h3 {
 
   h1 {
     font-size: 2.8rem;
+  }
+
+  .pet-hero h1 {
+    font-size: 3.1rem;
   }
 
   .button {
