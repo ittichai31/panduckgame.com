@@ -361,8 +361,27 @@ h3 {
   transform: translateX(-50%) scale(var(--cat-scale));
 }
 
+.hero-walking-cat {
+  --walk-frame-size: 205px;
+  background-image: url("/animations/orange-cat/sheet-1/orange-cat_sheet-1_row-01_walking_v2_strip.png");
+  background-repeat: no-repeat;
+  background-size: calc(var(--walk-frame-size) * 6) var(--walk-frame-size);
+  background-position: 0 0;
+  will-change: background-position, transform;
+}
+
 .sprite-pedestal .orange-cat.moving-cat {
   animation: cat-cross-stage 10s linear infinite;
+}
+
+.sprite-pedestal .orange-cat.hero-walking-cat {
+  animation: orange-cat-walk-frames .96s steps(6) infinite, cat-cross-stage 10s linear infinite;
+}
+
+@keyframes orange-cat-walk-frames {
+  to {
+    background-position: calc(var(--walk-frame-size) * -6) 0;
+  }
 }
 
 @keyframes cat-cross-stage {
@@ -1398,6 +1417,10 @@ h3 {
 
   .sprite-pedestal .orange-cat.moving-cat {
     animation-duration: 9s;
+  }
+
+  .sprite-pedestal .orange-cat.hero-walking-cat {
+    animation-duration: .96s, 9s;
   }
 
   .sprite-pedestal .tuxedo {
