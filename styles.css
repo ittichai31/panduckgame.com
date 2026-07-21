@@ -351,49 +351,10 @@ h3 {
 }
 
 .sprite-pedestal .orange-cat {
-  --cat-scale: .86;
-  --cat-scale-flip: -.86;
-  --walk-left: -28rem;
-  --walk-right: 28rem;
-  left: 50%;
-  bottom: -.25rem;
+  left: 52%;
+  bottom: -.05rem;
   z-index: 3;
-  transform: translateX(-50%) scale(var(--cat-scale));
-}
-
-.hero-walking-cat {
-  --walk-frame-size: 205px;
-  background-image: url("/animations/orange-cat/sheet-1/orange-cat_sheet-1_row-01_walking_v2_strip.png");
-  background-repeat: no-repeat;
-  background-size: calc(var(--walk-frame-size) * 6) var(--walk-frame-size);
-  background-position: 0 0;
-  will-change: transform;
-}
-
-.sprite-pedestal .orange-cat.moving-cat {
-  animation: cat-cross-stage 10s linear infinite;
-}
-
-.sprite-pedestal .orange-cat.hero-walking-cat {
-  animation: cat-cross-stage 10s linear infinite;
-}
-
-@keyframes cat-cross-stage {
-  0% {
-    transform: translateX(calc(-50% + var(--walk-left))) scale(var(--cat-scale));
-  }
-  49% {
-    transform: translateX(calc(-50% + var(--walk-right))) scale(var(--cat-scale));
-  }
-  50% {
-    transform: translateX(calc(-50% + var(--walk-right))) scale(var(--cat-scale-flip), var(--cat-scale));
-  }
-  99% {
-    transform: translateX(calc(-50% + var(--walk-left))) scale(var(--cat-scale-flip), var(--cat-scale));
-  }
-  100% {
-    transform: translateX(calc(-50% + var(--walk-left))) scale(var(--cat-scale));
-  }
+  transform: translateX(-50%) scale(-.86, .86);
 }
 
 .sprite-pedestal .tuxedo {
@@ -426,10 +387,10 @@ h3 {
 }
 
 .wool-ball-prop {
-  left: 4rem;
-  bottom: 2.2rem;
-  width: 35px;
-  z-index: 4;
+  left: 3.35rem;
+  bottom: 3.05rem;
+  width: 27px;
+  z-index: 1;
 }
 
 .feature-band {
@@ -1400,21 +1361,9 @@ h3 {
   }
 
   .sprite-pedestal .orange-cat {
-    --cat-scale: .78;
-    --cat-scale-flip: -.78;
-    --walk-left: -22rem;
-    --walk-right: 22rem;
     left: 50%;
-    bottom: -.15rem;
-    transform: translateX(-50%) scale(var(--cat-scale));
-  }
-
-  .sprite-pedestal .orange-cat.moving-cat {
-    animation-duration: 9s;
-  }
-
-  .sprite-pedestal .orange-cat.hero-walking-cat {
-    animation-duration: 9s;
+    bottom: 0;
+    transform: translateX(-50%) scale(-.78, .78);
   }
 
   .sprite-pedestal .tuxedo {
