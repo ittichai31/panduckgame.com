@@ -129,8 +129,32 @@ function bootCatAnimations(root = document) {
   });
 }
 
+const heroWalkingTimers = new WeakMap();
+
+function bootHeroWalkingCats(root = document) {
+  root.querySelectorAll(".hero-walking-cat").forEach((cat) => {
+    if (heroWalkingTimers.has(cat)) {
+      return;
+    }
+
+    let frame = 0;
+    const frameCount = 6;
+    const frameSize = 205;
+    const frameMs = 140;
+
+    cat.style.backgroundPosition = "0 0";
+    const timer = window.setInterval(() => {
+      frame = (frame + 1) % frameCount;
+      cat.style.backgroundPosition = `-${frame * frameSize}px 0`;
+    }, frameMs);
+
+    heroWalkingTimers.set(cat, timer);
+  });
+}
+
 window.setCatAnimation = function setCatAnimation(image, catId, action = "sitting") {
   applyCatAnimation(image, catId, action);
 };
 
 bootCatAnimations();
+bootHeroWalkingCats();
