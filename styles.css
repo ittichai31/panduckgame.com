@@ -351,15 +351,36 @@ h3 {
 }
 
 .sprite-pedestal .orange-cat {
-  left: 13.4rem;
+  --cat-scale: .86;
+  --cat-scale-flip: -.86;
+  --walk-left: -28rem;
+  --walk-right: 28rem;
+  left: 50%;
   bottom: -.25rem;
   z-index: 3;
-  transform: scale(.86);
+  transform: translateX(-50%) scale(var(--cat-scale));
 }
 
 .sprite-pedestal .orange-cat.moving-cat {
-  --travel: 8.2rem;
-  animation-duration: 7.2s;
+  animation: cat-cross-stage 10s linear infinite;
+}
+
+@keyframes cat-cross-stage {
+  0% {
+    transform: translateX(calc(-50% + var(--walk-left))) scale(var(--cat-scale));
+  }
+  49% {
+    transform: translateX(calc(-50% + var(--walk-right))) scale(var(--cat-scale));
+  }
+  50% {
+    transform: translateX(calc(-50% + var(--walk-right))) scale(var(--cat-scale-flip), var(--cat-scale));
+  }
+  99% {
+    transform: translateX(calc(-50% + var(--walk-left))) scale(var(--cat-scale-flip), var(--cat-scale));
+  }
+  100% {
+    transform: translateX(calc(-50% + var(--walk-left))) scale(var(--cat-scale));
+  }
 }
 
 .sprite-pedestal .tuxedo {
@@ -1366,13 +1387,17 @@ h3 {
   }
 
   .sprite-pedestal .orange-cat {
+    --cat-scale: .78;
+    --cat-scale-flip: -.78;
+    --walk-left: -22rem;
+    --walk-right: 22rem;
     left: 50%;
     bottom: -.15rem;
-    transform: translateX(-50%) scale(.78);
+    transform: translateX(-50%) scale(var(--cat-scale));
   }
 
   .sprite-pedestal .orange-cat.moving-cat {
-    --travel: clamp(2.8rem, 16vw, 4.8rem);
+    animation-duration: 9s;
   }
 
   .sprite-pedestal .tuxedo {
