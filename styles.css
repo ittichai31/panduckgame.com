@@ -1331,6 +1331,7 @@ h3 {
   }
 
   .pet-game-logo {
+    order: -1;
     width: min(28rem, 100%);
   }
 
@@ -1365,9 +1366,13 @@ h3 {
   }
 
   .sprite-pedestal .orange-cat {
-    left: 45%;
+    left: 50%;
     bottom: -.15rem;
     transform: translateX(-50%) scale(.78);
+  }
+
+  .sprite-pedestal .orange-cat.moving-cat {
+    --travel: clamp(2.8rem, 16vw, 4.8rem);
   }
 
   .sprite-pedestal .tuxedo {
