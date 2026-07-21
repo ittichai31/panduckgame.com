@@ -118,7 +118,7 @@ function catAnimationPath(catId, action = "sitting") {
 function applyCatAnimation(image, catId, action = "sitting") {
   image.dataset.cat = catId;
   image.dataset.action = action;
-  image.src = catAnimationPath(catId, action);
+  image.src = image.dataset.animationSrc || catAnimationPath(catId, action);
   image.classList.toggle("moving-cat", action === "walking" || action === "running");
   image.classList.toggle("running-cat", action === "running");
 }
