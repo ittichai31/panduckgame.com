@@ -1,0 +1,23 @@
+.whoqme-info {
+  width: min(44rem, calc(100% - 2rem));
+  margin: 1rem auto 4rem;
+  padding: 1.5rem;
+  border: 2px solid var(--ink);
+  border-radius: .5rem;
+  background: var(--panel);
+  line-height: 1.65;
+}
+
+.whoqme-info h1 {
+  max-width: none;
+  font-size: 2rem;
+}
+
+.whoqme-info h2 {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+}
+
+.whoqme-info a {
+  text-decoration: underline;
+}
